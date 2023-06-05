@@ -4,12 +4,13 @@ on:
   schedule:
     - cron "09****" # 9am every day
     
-
+  workflow_dispatch:
     
 jobs:
   build:
     runs-on: ubuntu-latest
   
+
   
   steps:
   - name: Set Timezone
