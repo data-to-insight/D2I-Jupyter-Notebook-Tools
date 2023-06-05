@@ -3,8 +3,7 @@ name: Scheduled script run
 on:
   schedule:
     - cron "09****" # 9am every day
-    
-
+  
     
 jobs:
   build:
