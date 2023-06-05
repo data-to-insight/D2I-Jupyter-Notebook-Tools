@@ -2,45 +2,41 @@ name: Scheduled script run
 
 on:
   schedule:
-    - cron "09****" # 9am every day
-  
+    - cron: "09****"
     
 jobs:
   build:
     runs-on: ubuntu-latest
-  
-  
-  steps:
-  - name: Set Timezone
-    uses: szenius/set-timezone@v1.0
-  with:
-    timezoneLinux: "Europe/Istambul"
-  
-  - name: Checkout repo content
-    uses: actions/checkout@v2 # checkout repo to git runner
-  
-  - name: Setup Python Version
-    uses: actions/setup-python@v2
-    with:
-      python-version: 3.8 # install python ver needed
-  
-  - name: Install Python dependencies
-    uses: py-actions/py-dependency-install@v2
-    with:
-      path: "requirements.txt"
+    
+    steps:
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Istanbul"
       
-    - name: Excute Python script
-      run: python ofsted-childrens-services-inspection-scrape.py
+      - name: Checkout repo content
+        uses: actions/checkout@v2 # checkout repo to git runner
       
-    - name: Commit file
-      run: |
-        git config --local user.name robjharrison
-        git config --local user.email "robjharrison@gmail.com"
-        git add --all
-        git commit -am "GH ACTION Headlines $(date)"
-        git push origin main
-      env:
-      REPO_KEY ${{secrets.GITHUB_TOKEN}}
-      username: github-actions
+      - name: Setup Python Version
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 # install python ver needed
       
-      
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "requirements.txt"
+          
+      - name: Execute Python script
+        run: python ofsted-childrens-services-inspection-scrape.py
+        
+      - name: Commit file
+        run: |
+          git config --local user.name robjharrison
+          git config --local user.email "robjharrison@gmail.com"
+          git add --all
+          git commit -am "GH ACTION Headlines $(date)"
+          git push origin main
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions
