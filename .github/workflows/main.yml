@@ -2,17 +2,24 @@ name: Scheduled script run
 
 on:
   schedule:
+
+    
+  workflow_dispatch:
+
     - cron: "0 9 * * *" 
+
     
 jobs:
   build:
     runs-on: ubuntu-latest
+
     
     steps:
       - name: Set Timezone
         uses: szenius/set-timezone@v1.0
         with:
           timezoneLinux: "Europe/Istanbul"
+
       
       - name: Checkout repo content
         uses: actions/checkout@v2 # checkout repo to git runner
