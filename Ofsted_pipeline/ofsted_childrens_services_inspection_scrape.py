@@ -1,70 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ## Ofsted Inspection Reports Scrape Tool 
-# 
-
-# <b>Summary:</b><br>
-# <span style="font-size:10pt">Scrapes all local authorities 'Childrens Services Ofsted Inspection' reports* creating (an enhanced version) the 'Ofsted ILACS Outcomes summary' report**. Output is optionally in either csv or direct to xls format. As well as creating the summary report, the process scrapes/downloads and organises into named folders*** the Children's Services <b>full</b> inspection reports(i.e. not interim, focused nor monitoring visits) in their original pdf. Each LA name is 'cleaned' to aid a standard/onward process use of LA naming - e.g. 'Nottingham City Council' becomes 'Nottingham' and 'Barnsley Metropolitan Borough Council' becomes 'Barnsley'. There are some work-in-progress elements included within the export summary towards inspection sentiment score grading/onward analysis; the thresholds and low-level testing on these are part of some potential future work. </span><br>
-# 
-#     
-# <ul style="font-size:10pt; list-style-type:disc; margin-left: 20px;">
-#     <li>**Available at: https://reports.ofsted.gov.uk/ .</li>
-#     <li>*Available at: https://adcs.org.uk/inspection/article/ilacs-outcomes-summary </li>
-#     <li>***folder structure : \\export_data\inspection_reports\provider_urn+local_authority_name(lowercase)...pdf.</li>
-# </ul> 
-# 
-# <br>
-# <b>Exports:</b><br>
-# <span style="font-size:10pt">The main summary sheet (xls or csv) and packaged historic pdf inspection reports. </span><br>
-# 
-# `script root`
-# <ul style="font-size:10pt; list-style-type:disc; margin-left: 20px;">
-# <li>ofsted_childrens_services_overview(.csv/.xlsx)
-#     <li>\export_data\
-#         <ul>
-#             <li>\inspection_reports\</li>
-#                 <ul>
-#                 <li>\provider_urn+local_authority_name\*.pdf</li>
-#                 </ul>
-#         </ul>
-#     </li>
-# </ul>
-# 
-# <b>Imports:</b><br>
-# <span style="font-size:10pt">Static data can be added to further enrich the current summary output. As an example the Local Authority Number is added within this process. This process has been structured in a manner that would easily provide the mechanisms to enable further data enrichment, e.g. geospacial providing a suitable key column can be accessed. </span><br>
-# 
-# `script root`
-# <ul style="font-size:10pt; list-style-type:disc; margin-left: 20px;">
-#     <li>\import_data\
-#         <ul>
-#             <li>\la_lookup\</li>
-#         </ul>
-#     </li>
-# </ul>
-# 
-# 
-# <br>
-# <b>N.B/Pre-requisites:</b><br>
-# <span style="font-size:10pt">Relies on Ofsted's continued use of nonvisual css element descriptors on the web site. Obv not ideal to rely on anything in the web-space, but any scrape process, however robust, is undermined/dictated by subsequent page changes. The tool has avoided the use of Selenium or similar as this is more likely to be impacted by visual design changes on the page(s). Instead it relies on the underlying php search process, and associated php generated links.</span>
-
-# <b>Backlog/to-do:</b><br>
-# 
-# <ul style="font-size:10pt; list-style-type:disc; margin-left: 20px;">
-#     <li>Moved to Trello: https://trello.com/c/4TihKpvQ</li>
-# 
-# </ul> 
-# 
-# <b>Known bugs:</b><br>
-# 
-# <ul style="font-size:10pt; list-style-type:disc; margin-left: 20px;">
-#     <li>Moved to Trello</li>
-#     
-# </ul> 
-
-# In[1]:
-
-
 #
 # Export options
 
@@ -90,7 +23,7 @@ pdf_data_capture = True # True is default (scrape within pdf inspection reports 
                         # False == only pdfs/list of LA's+link to most recent exported. Not inspection results.
 
 
-# In[2]:
+
 
 
 #
@@ -110,8 +43,6 @@ max_page_results_url = '&rows=' + str(max_page_results) # Coerce results page to
 url = url_stem + search_url + max_page_results_url 
 
 
-
-# In[3]:
 
 
 # Work in-progress
@@ -151,8 +82,6 @@ report_sentiment_ignore_words = [
 ]
 
 
-# In[4]:
-
 
 # #
 # # In progress Ofsted site/search link refactoring
@@ -164,7 +93,6 @@ report_sentiment_ignore_words = [
 # url = url_stem + url_search_stem + '&level_1_types=' + str(search_category) + '&level_2_types=' + str(search_sub_category) + max_page_results_url
 
 
-# In[5]:
 
 
 #
@@ -179,72 +107,66 @@ warnings.filterwarnings('ignore')
                     
 
 
-# In[6]:
-
 
 # Non-standard modules that might need installing
-packages = [
-    "PyPDF2",
-    "tabula-py",
-    "textblob",
-    "gensim",
-    "matplotlib",
-    "openpyxl",
-    "XlsxWriter"
-]
-
-for package in packages:
-    try:
-        __import__(package)
-    except ModuleNotFoundError:
-        get_ipython().system('pip install {package}')
-
-
-# In[7]:
-
-
 import os
 import requests
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
-
 from requests.exceptions import RequestException
-
-# pdf search/data extraction
 import io
 import os
-import tabula   
-import PyPDF2   
 import re       
-
-# used in handling inspection dates
 from dateutil import parser 
 from datetime import datetime
+import nltk
+import matplotlib.pyplot as plt
+import json
+import loggging
+
+# pdf search/data extraction
+try:
+    import tabula   
+    import PyPDF2  
+except ModuleNotFoundError:
+    print("Please install 'tabula-py' and 'PyPDF2' using pip")
 
 # nlp stuff for sentiment
-from textblob import TextBlob
-from gensim import corpora, models
-
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import CountVectorizer
+try:
+    from textblob import TextBlob
+    from gensim import corpora, models
+except ModuleNotFoundError:
+    print("Please install 'textblob' and 'gensim' using pip")
 
 # handle optional excel export+active file links
-import openpyxl
-from openpyxl.styles import Font
-from openpyxl.utils.dataframe import dataframe_to_rows
-import xlsxwriter
-import json
+try:
+    import openpyxl
+    from openpyxl.styles import Font
+    from openpyxl.utils.dataframe import dataframe_to_rows
+    import xlsxwriter
+except ModuleNotFoundError:
+    print("Please install 'openpyxl' and 'xlsxwriter' using pip")
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
+
+try:
+    from sklearn.metrics.pairwise import cosine_similarity
+    from sklearn.feature_extraction.text import CountVectorizer
+except ModuleNotFoundError:
+    print("Please install 'scikit-learn' using pip")
 
 # visuals
 import matplotlib.pyplot as plt
 
 
-# In[16]:
+# Configure the logging module
+logging.basicConfig(filename='output.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+
+
+
 
 
 #
@@ -404,6 +326,8 @@ def extract_inspection_grade(row, column_name):
 
 
 
+
+
 def fix_invalid_judgement_table_structure(df):
     """
     Function to correct the structure of a given DataFrame that represents a judgement table. The function specifically 
@@ -546,14 +470,15 @@ def fix_misalligned_judgement_table(df):
         corrected_df.loc[corrected_df['judgement'] == known_judgements[3], 'grade'] = grades[3] # 'care_leavers"
     
 
-    # TESTING / visual checks
-    if len(grades) > 4:
-        print(f"New Post Jan2023 framework identified with {len(grades)} grades: {grades}")
-        # display(corrected_df) # TESTING
-    if len(grades) > 5:
-        print(f"Unexpectedly high number of grades found ({len(grades)}). Investigate this: {grades}")
+    # # TESTING / visual checks
+    # if len(grades) > 4:
+    #     print(f"New Post Jan2023 framework identified with {len(grades)} grades: {grades}")
+    #     # display(corrected_df) # TESTING
+    # if len(grades) > 5:
+    #     print(f"Unexpectedly high number of grades found ({len(grades)}). Investigate this: {grades}")
 
     return corrected_df
+
 
 
 
@@ -769,8 +694,12 @@ def extract_inspection_data_update(pdf_content):
         if column in df.columns:
             df[column] = df[column].replace({r'\b(be good\w*)\b': 'requires improvement', '(?i)nan': 'data_unreadable'}, regex=True)
         else:
-            print(f"Column '{column}' not found in the DataFrame.")
-            print(df.columns)
+            # print(f"Column '{column}' not found in the DataFrame.")
+            # print(df.columns)
+
+            # Log the column names instead of printing
+            logging.warning(f"Inspection date {start_date_formatted} / Column '{column}' not found in the DataFrame.")
+            logging.info(df.columns)
 
 
 
@@ -797,6 +726,9 @@ def extract_inspection_data_update(pdf_content):
 
         'table_rows_found':len(df)
         }
+
+
+
 
 
 
@@ -1345,7 +1277,6 @@ def replace_empty_ladcode_values(df, col1, col2):
     return df
 
 
-# In[9]:
 
 
 #
@@ -1376,7 +1307,6 @@ ilacs_inspection_summary_df = pd.DataFrame(data)
 
 
 
-# In[10]:
 
 
 #
@@ -1404,7 +1334,7 @@ cols_to_move = ['inspectors_median_sentiment_score','inspectors_inspections_coun
 ilacs_inspection_summary_df = reposition_columns(ilacs_inspection_summary_df, key_col, cols_to_move)
 
 
-# In[11]:
+
 
 
 # Bring in additional flat-file stored data 
@@ -1417,11 +1347,13 @@ ilacs_inspection_summary_df = reposition_columns(ilacs_inspection_summary_df, ke
 
 
 
+
 # Enrichment: LA codes
 # Ofsted data centres on URN, but some might need historic 'LA Number'
 
 # import the needed external/local data
 local_authorities_lookup_df = import_csv_from_folder(import_la_data_path) # bring external data in 
+
 
 # Ensure key column consistency
 key_col = 'urn'
@@ -1439,24 +1371,27 @@ ilacs_inspection_summary_df = reposition_columns(ilacs_inspection_summary_df, ke
 
 
 
-# Enrichment: Geospatial boundary data
-# Bring in, and append geospatial boundaries data for each la (geojson)
+# # Enrichment: Geospatial boundary data
+# # Bring in, and append geospatial boundaries data for each la (geojson)
 
-# import the needed external/local data
-exclude_fields = ['globalid', 'shape_length', 'shape_area'] # we dont need these
-json_df = read_json_to_dataframe(import_geo_data_path+geo_boundaries_filename, exclude_fields)
+# # REmoved until decision reached on handling duplicate LAD23 codes in data. 
 
-# Ensure key column consistency
-key_col = 'lad23cd'
-json_df = replace_empty_ladcode_values(json_df, 'lad23cd', 'utla23cd') # for cases where ladcd doesnt exist for non-lad LA areas. 
 
-# Define what data is required to be merged in
-additional_data_cols = ['lad23cd', 'bng_e', 'bng_n', 'long', 'lat','coordinates']
-ilacs_inspection_summary_df = merge_and_select_columns(ilacs_inspection_summary_df, json_df, key_col, additional_data_cols)
+# # import the needed external/local data
+# exclude_fields = ['globalid', 'shape_length', 'shape_area'] # we dont need these
+# json_df = read_json_to_dataframe(import_geo_data_path+geo_boundaries_filename, exclude_fields)
 
-# re-organise column structure now with new col(s)
-# geo cols can remain in appended positions
-## End enrichment 2 ## 
+# # Ensure key column consistency
+# key_col = 'lad23cd'
+# json_df = replace_empty_ladcode_values(json_df, 'lad23cd', 'utla23cd') # for cases where ladcd doesnt exist for non-lad LA areas. 
+
+# # Define what data is required to be merged in
+# additional_data_cols = ['lad23cd', 'bng_e', 'bng_n', 'long', 'lat','coordinates']
+# ilacs_inspection_summary_df = merge_and_select_columns(ilacs_inspection_summary_df, json_df, key_col, additional_data_cols)
+
+# # re-organise column structure now with new col(s)
+# # geo cols can remain in appended positions
+# ## End enrichment 2 ## 
 
 
 
@@ -1471,16 +1406,14 @@ ilacs_inspection_summary_df = merge_and_select_columns(ilacs_inspection_summary_
 
 
 
-# In[15]:
+
+# json_df[json_df['lad23cd'].duplicated()]
+
+# print(json_df.columns)
+# print(ilacs_inspection_summary_df.columns)
 
 
-json_df[json_df['lad23cd'].duplicated()]
 
-print(json_df.columns)
-print(ilacs_inspection_summary_df.columns)
-
-
-# In[ ]:
 
 
 #
@@ -1492,7 +1425,6 @@ ilacs_inspection_summary_df['la_code'] = pd.to_numeric(ilacs_inspection_summary_
 ilacs_inspection_summary_df['inspectors_inspections_count'] = pd.to_numeric(ilacs_inspection_summary_df['inspectors_inspections_count'], errors='coerce')
 
 
-# In[ ]:
 
 
 # Export summary data
@@ -1504,5 +1436,3 @@ save_data_update(ilacs_inspection_summary_df, export_summary_filename, file_type
 
 
 print("Last output date and time: ", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-
-
