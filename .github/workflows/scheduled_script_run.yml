@@ -28,7 +28,7 @@ jobs:
           path: "requirements.txt"
 
       - name: Execute Python script
-        run: python ofsted-childrens-services-inspection-scrape.py
+        run: python Ofsted_pipeline/ofsted-childrens-services-inspection-scrape.py
 
       - name: Commit file
         run: |
