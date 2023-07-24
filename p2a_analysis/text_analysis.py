@@ -1,6 +1,7 @@
 '''
 Used to analyse p2a megamatrix
 '''
+#%%
 import pandas as pd
 import nltk
 from nltk.tokenize import RegexpTokenizer
@@ -73,3 +74,5 @@ df['sutton_lem'] = df['sutton string fdist'].apply(wordnet_lem.lemmatize)
 df['essex lem'] = df['essex string fdist'].apply(wordnet_lem.lemmatize)
 df['camden lem'] = df['camden string fdist'].apply(wordnet_lem.lemmatize)
 df['croydon lem'] = df['croydon string fdist'].apply(wordnet_lem.lemmatize)
+
+#%%
