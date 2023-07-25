@@ -1,19 +1,21 @@
 '''
 Used to analyse p2a megamatrix
 '''
-#%%
+
 import pandas as pd
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 from nltk.stem import WordNetLemmatizer
-import wordcloud
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+
 
 df = pd.read_excel(r'/workspaces/D2I-Jupyter-Notebook-Tools/p2a_analysis/mega matrix - with analysis.xlsx',
                   'All data items')
@@ -75,4 +77,4 @@ df['essex lem'] = df['essex string fdist'].apply(wordnet_lem.lemmatize)
 df['camden lem'] = df['camden string fdist'].apply(wordnet_lem.lemmatize)
 df['croydon lem'] = df['croydon string fdist'].apply(wordnet_lem.lemmatize)
 
-#%%
+sutton_words_lem = ' '.join([word for word in df['sutton lem']])
