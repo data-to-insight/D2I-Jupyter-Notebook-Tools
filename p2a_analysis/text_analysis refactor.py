@@ -142,6 +142,7 @@ def make_wordcloud(df, la):
     plt.title(f'{la}: distribution of sentiment scores')
     plt.xlabel('Sentiment')
     plt.ylabel('Distribution of scores')
+    plt.ylim(-1,1)
     plt.savefig(f'p2a_analysis/{la} sentiment box')
 
 for key, value in df_dict.items():
