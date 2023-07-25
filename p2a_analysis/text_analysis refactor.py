@@ -42,11 +42,16 @@ essex['text'] = essex['essex text'].astype(str).str.lower()
 croydon['text'] = croydon['croydon text'].astype(str).str.lower()
 camden['text'] = camden['camden text'].astype(str).str.lower()
 
-df_dict={'sutton':sutton,
-         'essex':essex,
-         'croydon':croydon,
-         'camden':camden,
+
+total = pd.concat([sutton, camden, croydon, essex], axis=0).reset_index()
+
+df_dict={'Sutton':sutton,
+         'Essex':essex,
+         'Croydon':croydon,
+         'Camden':camden,
+         'All LAs':total
          }
+print(df_dict['All LAs'])
 
 regexp = RegexpTokenizer('\w+')
 wordnet_lem = WordNetLemmatizer()
@@ -89,8 +94,10 @@ def make_wordcloud(df, la):
                             random_state=2,
                             max_font_size=100,
                             background_color='white',
+                            colormap='tab20c',
                             repeat=True,
                             ).generate(words_lem)
+    plt.title(f'{la} wordcloud')
     plt.figure(figsize=(10,7))
     plt.imshow(cloud, interpolation='bilinear')
     plt.axis('off');
@@ -101,7 +108,10 @@ def make_wordcloud(df, la):
     top_10 = fdist.most_common(10)
     fdist = pd.Series(dict(top_10))
     
-    fig = px.bar(y=fdist.index, x=fdist.values)
+    fig = px.bar(y=fdist.index, 
+                 x=fdist.values,
+                 title=f'{la} top 10 word distribution',
+                 labels=dict(x="Word", y="Frequency"))
 
     # sort values
     fig.update_layout(barmode='stack', yaxis={'categoryorder':'total ascending'})
@@ -120,12 +130,18 @@ def make_wordcloud(df, la):
 
     count_bar = sns.countplot(y='sentiment',
                 data=df);
+    plt.title(f'{la}: number of questions with positive, negative, and neutral sentiment')
+    plt.xlabel('Sentiment')
+    plt.ylabel('Number of questions')
     plt.savefig(f'p2a_analysis/{la} sentiment bar')
     plt.clf()
 
     count_box = sns.boxplot(y='compound',
                 x='sentiment',
                 data=df);
+    plt.title(f'{la}: distribution of sentiment scores')
+    plt.xlabel('Sentiment')
+    plt.ylabel('Distribution of scores')
     plt.savefig(f'p2a_analysis/{la} sentiment box')
 
 for key, value in df_dict.items():
