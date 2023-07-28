@@ -6,6 +6,7 @@ as a basis
 '''
 
 import pandas as pd
+import numpy as np
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
@@ -51,7 +52,7 @@ df_dict={'Sutton':sutton,
          'Camden':camden,
          'All LAs':total
          }
-print(df_dict['All LAs'])
+#print(df_dict['All LAs'])
 
 regexp = RegexpTokenizer('\w+')
 wordnet_lem = WordNetLemmatizer()
@@ -107,7 +108,7 @@ def make_wordcloud(df, la):
     #  Frequency distribution plot
     top_10 = fdist.most_common(10)
     fdist = pd.Series(dict(top_10))
-    
+
     fig = px.bar(y=fdist.index, 
                  x=fdist.values,
                  title=f'{la} top 10 word distribution',
@@ -145,6 +146,74 @@ def make_wordcloud(df, la):
     plt.ylim(-1,1)
     plt.savefig(f'p2a_analysis/{la} sentiment box')
 
+    return top_10
+
+fdists = {}
 for key, value in df_dict.items():
     plt.clf()
-    make_wordcloud(value, key)
+    fdist = make_wordcloud(value, key)
+    fdists[key] = fdist
+
+
+# Getting top ten words from each LA from tuples
+sutton_10 = [i[0] for i in fdists['Sutton']]
+essex_10 = [i[0] for i in fdists['Essex']]
+croydon_10 = [i[0] for i in fdists['Croydon']]
+camden_10 = [i[0] for i in fdists['Camden']]
+
+top_10s_combined = sutton_10 + essex_10 + croydon_10 + camden_10 
+#print(top_10s_combined)
+
+
+la_word_count_dict = {}
+def top_10_counts(df, la):
+    # retain only rows containing words from the top 10 of every LA
+    df['flag'] = np.where(df.text.str.contains('|'.join(top_10s_combined)),1,0)
+    df = df[df['flag'] == 1]
+
+    for word in top_10s_combined:
+        word_df = df[df['text'].str.contains(word)]
+        word_len = len(word_df)
+        #print(f'{la}, {word}, {word_len}')
+        la_word_count_dict[word] = word_len
+    #print(la_word_count_dict)
+    return la_word_count_dict
+
+all_la_counts_dict = top_10_counts(df_dict['All LAs'], 'All LAs')
+all_la_counts_df = pd.DataFrame(all_la_counts_dict.items(), columns=['word', f'{key} count'])
+
+
+for key, value in df_dict.items():
+    if key != 'All LAs':    
+        temp_dict = top_10_counts(value, key)
+        temp_df = pd.DataFrame(temp_dict.items(), columns=['word', f'{key} count'])
+        all_la_counts_df = all_la_counts_df.merge(temp_df, on='word')
+
+
+
+all_la_counts_df['sutton percentage'] = (all_la_counts_df['Sutton count']/574)*100
+all_la_counts_df['camden percentage'] = (all_la_counts_df['Camden count']/473)*100
+all_la_counts_df['essex percentage'] = (all_la_counts_df['Essex count']/434)*100
+all_la_counts_df['croydon percentage'] = (all_la_counts_df['Croydon count']/838)*100
+all_la_counts_df['All LA percentage'] = (all_la_counts_df['All LAs count']/2319)*100
+#print(all_la_counts_df)
+plt.clf()
+all_la_counts_df.plot(x="word", y=["sutton percentage", "essex percentage", "camden percentage", "croydon percentage", "All LA percentage"], kind="bar")
+plt.title('Percentage of questions from each LA using a word from the combined list of top 10 words from All LAs')
+plt.ylabel('Percentage')
+plt.xlabel('Word')
+
+plt.savefig(f'p2a_analysis/percentage word counts.png', bbox_inches='tight')
+
+# Finding questions all LAs collect that aren't 903 or Annex A
+#print(df.info())
+not_stat = df[(df['annex a  information captured'].isna()) &
+               (df['903 information captured'].isna())]
+
+not_stat_all_four = not_stat[(not_stat['sutton text'].notna()) &
+                             (not_stat['essex text'].notna()) &
+                             (not_stat['croydon text'].notna()) &
+                             (not_stat['camden text'].notna())].reset_index()
+
+#print(not_stat_all_four['sutton text'])
+not_stat_all_four.to_csv('p2a_analysis/not_stat_all_four.csv', index=False)
