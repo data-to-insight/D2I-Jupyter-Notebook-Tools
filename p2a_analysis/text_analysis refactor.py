@@ -217,3 +217,37 @@ not_stat_all_four = not_stat[(not_stat['sutton text'].notna()) &
 
 #print(not_stat_all_four['sutton text'])
 not_stat_all_four.to_csv('p2a_analysis/not_stat_all_four.csv', index=False)
+
+# Length and percentage of Qs about feelings, views, &c.
+feelings_words = ['view', 'feel', 'opinion'] 
+
+
+
+def feel_counts(df):
+    df = df[df['text'].str.contains('|'.join(feelings_words))]
+    length = len(df)
+    return length
+
+feels_dict = {}
+for key, value in df_dict.items():
+    if key != 'All LAs':    
+        length = feel_counts(value)
+        feels_dict[key] = length
+
+
+feels_counts_df = pd.DataFrame(feels_dict.items(), columns=['LA', 'count'])
+feels_counts_df.loc[feels_counts_df.LA == 'Sutton', 'Percentage'] = (feels_counts_df['count']/574)*100
+feels_counts_df.loc[feels_counts_df.LA == 'Camden', 'Percentage'] = (feels_counts_df['count']/473)*100
+feels_counts_df.loc[feels_counts_df.LA == 'Essex', 'Percentage'] = (feels_counts_df['count']/434)*100
+feels_counts_df.loc[feels_counts_df.LA == 'Croydon', 'Percentage'] = (feels_counts_df['count']/838)*100
+
+plt.clf()
+feels_counts_df.plot(x="LA", y='Percentage', kind="bar")
+plt.title('Percentage of questions using words indicating a subjective view is observed')
+plt.ylabel('Percentage')
+plt.xlabel('LA')
+
+plt.savefig(f'p2a_analysis/feels counts.png', bbox_inches='tight')
+
+
+print(feels_counts_df)
