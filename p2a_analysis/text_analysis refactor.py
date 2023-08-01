@@ -224,31 +224,53 @@ feelings_words_long = ['view', 'feel', 'opinion', 'aspiration', 'emotional', 'we
 
 
 
-def feel_counts(df):
-    df = df[df['text'].str.contains('|'.join(feelings_words))]
+def feel_counts(df, list):
+    df = df[(df['text'].str.contains('|'.join(list))) & (~df['text'].str.contains('review'))]
+    #df = df[(df['text'].str.contains('|'.join(feelings_words_long)))]
+    # print(df['text'])
     length = len(df)
     return length
 
-feels_dict = {}
+feels_dict_short = {}
 for key, value in df_dict.items():
     if key != 'All LAs':    
-        length = feel_counts(value)
-        feels_dict[key] = length
+        length = feel_counts(value, feelings_words_short)
+        feels_dict_short[key] = length
 
+feels_dict_long = {}
+for key, value in df_dict.items():
+    if key != 'All LAs':    
+        length = feel_counts(value, feelings_words_long)
+        feels_dict_long[key] = length
 
-feels_counts_df = pd.DataFrame(feels_dict.items(), columns=['LA', 'count'])
-feels_counts_df.loc[feels_counts_df.LA == 'Sutton', 'Percentage'] = (feels_counts_df['count']/574)*100
-feels_counts_df.loc[feels_counts_df.LA == 'Camden', 'Percentage'] = (feels_counts_df['count']/473)*100
-feels_counts_df.loc[feels_counts_df.LA == 'Essex', 'Percentage'] = (feels_counts_df['count']/434)*100
-feels_counts_df.loc[feels_counts_df.LA == 'Croydon', 'Percentage'] = (feels_counts_df['count']/838)*100
+feels_counts_df_short = pd.DataFrame(feels_dict_short.items(), columns=['LA', 'count'])
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'Sutton', 'Percentage'] = (feels_counts_df_short['count']/574)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'Camden', 'Percentage'] = (feels_counts_df_short['count']/473)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'Essex', 'Percentage'] = (feels_counts_df_short['count']/434)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'Croydon', 'Percentage'] = (feels_counts_df_short['count']/838)*100
 
 plt.clf()
-feels_counts_df.plot(x="LA", y='Percentage', kind="bar")
-plt.title('Percentage of questions using words indicating a subjective view is observed')
+feels_counts_df_short.plot(x="LA", y='Percentage', kind="bar")
+plt.title('Percentage of questions using short list of words indicating a subjective view is observed')
 plt.ylabel('Percentage')
 plt.xlabel('LA')
 
-plt.savefig(f'p2a_analysis/feels counts.png', bbox_inches='tight')
+plt.savefig(f'p2a_analysis/feels counts short.png', bbox_inches='tight')
+
+feels_counts_df_long = pd.DataFrame(feels_dict_long.items(), columns=['LA', 'count'])
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'Sutton', 'Percentage'] = (feels_counts_df_long['count']/574)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'Camden', 'Percentage'] = (feels_counts_df_long['count']/473)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'Essex', 'Percentage'] = (feels_counts_df_long['count']/434)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'Croydon', 'Percentage'] = (feels_counts_df_long['count']/838)*100
+
+plt.clf()
+feels_counts_df_long.plot(x="LA", y='Percentage', kind="bar")
+plt.title('Percentage of questions using long list of words indicating a subjective view, or emotional state is observed')
+plt.ylabel('Percentage')
+plt.xlabel('LA')
+
+plt.savefig(f'p2a_analysis/feels counts long.png', bbox_inches='tight')
 
 
-print(feels_counts_df)
+print(feels_counts_df_short)
+print(feels_counts_df_long)
