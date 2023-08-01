@@ -219,7 +219,8 @@ not_stat_all_four = not_stat[(not_stat['sutton text'].notna()) &
 not_stat_all_four.to_csv('p2a_analysis/not_stat_all_four.csv', index=False)
 
 # Length and percentage of Qs about feelings, views, &c.
-feelings_words = ['view', 'feel', 'opinion'] 
+feelings_words_short = ['view', 'feel', 'opinion']
+feelings_words_long = ['view', 'feel', 'opinion', 'aspiration', 'emotional', 'well-being', 'wellbeing', 'identity'] 
 
 
 
