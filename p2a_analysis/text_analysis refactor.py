@@ -149,14 +149,15 @@ def make_wordcloud(df, la):
     return top_10, df
 
 fdists = {}
-sent_df = pd.DataFrame({'Sentiment':['Positive', 'Negative']})
+sent_df = pd.DataFrame({'Sentiment':['Neutral', 'Positive', 'Negative']})
 for key, value in df_dict.items():
     plt.clf()
     fdist, sentiment_df = make_wordcloud(value, key)
+    neutral_percent = (len(sentiment_df[sentiment_df['sentiment'] == 'neutral'])/len(sentiment_df))*100
     positive_percent = (len(sentiment_df[sentiment_df['sentiment'] == 'positive'])/len(sentiment_df))*100
     negative_percent = (len(sentiment_df[sentiment_df['sentiment'] == 'negative'])/len(sentiment_df))*100
     fdists[key] = fdist
-    sent_df[key] = [positive_percent, negative_percent]
+    sent_df[key] = [neutral_percent, positive_percent, negative_percent]
 
 # positive/negative sentiment comparisons
 plt.clf()
