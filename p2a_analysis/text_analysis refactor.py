@@ -146,13 +146,25 @@ def make_wordcloud(df, la):
     plt.ylim(-1,1)
     plt.savefig(f'p2a_analysis/{la} sentiment box')
 
-    return top_10
+    return top_10, df
 
 fdists = {}
+sent_df = pd.DataFrame({'Sentiment':['Positive', 'Negative']})
 for key, value in df_dict.items():
     plt.clf()
-    fdist = make_wordcloud(value, key)
+    fdist, sentiment_df = make_wordcloud(value, key)
+    positive_percent = (len(sentiment_df[sentiment_df['sentiment'] == 'positive'])/len(sentiment_df))*100
+    negative_percent = (len(sentiment_df[sentiment_df['sentiment'] == 'negative'])/len(sentiment_df))*100
     fdists[key] = fdist
+    sent_df[key] = [positive_percent, negative_percent]
+
+# positive/negative sentiment comparisons
+plt.clf()
+sent_df.plot(x="Sentiment", y=["Essex", "Sutton", "Camden", "Croydon", "All LAs"], kind="bar")
+plt.title('Comparison of percentage of questions with positive and negative sentiments')
+plt.ylabel('Percentage')
+plt.xlabel('Sentiment')
+plt.savefig(f'p2a_analysis/percentage sentiment comparison.png', bbox_inches='tight')
 
 
 # Getting top ten words from each LA from tuples
