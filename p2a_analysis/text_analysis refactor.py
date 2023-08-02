@@ -149,6 +149,7 @@ def make_wordcloud(df, la):
     return top_10, df
 
 fdists = {}
+combined_sentiment_dfs = {}
 sent_df = pd.DataFrame({'Sentiment':['Neutral', 'Positive', 'Negative']})
 for key, value in df_dict.items():
     plt.clf()
@@ -158,6 +159,27 @@ for key, value in df_dict.items():
     negative_percent = (len(sentiment_df[sentiment_df['sentiment'] == 'negative'])/len(sentiment_df))*100
     fdists[key] = fdist
     sent_df[key] = [neutral_percent, positive_percent, negative_percent]
+    sentiment_df['LA'] = key
+    combined_sentiment_dfs[key] = sentiment_df
+
+plt.clf()
+all_sentiments = pd.concat([combined_sentiment_dfs['Sutton'], 
+                           combined_sentiment_dfs['Essex'], 
+                           combined_sentiment_dfs['Camden'], 
+                           combined_sentiment_dfs['Croydon'],
+                           combined_sentiment_dfs['All LAs']], axis=0).reset_index()
+all_sentiments = all_sentiments[['compound', 'LA', 'sentiment']]
+#all_sentiments = all_sentiments[all_sentiments['sentiment'] != 'neutral']
+
+count_box = sns.boxplot(y='compound',
+            x='sentiment',
+            data=all_sentiments,
+            hue='LA',);
+plt.title(f'All LAs compared distribution of sentiment scores')
+plt.xlabel('Sentiment')
+plt.ylabel('Distribution of scores')
+plt.ylim(-1,1)
+plt.savefig(f'p2a_analysis/all LA sentiment box')
 
 # positive/negative sentiment comparisons
 plt.clf()
