@@ -24,6 +24,11 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 nltk.download('vader_lexicon')
 
+# LA 1 = Sutton 
+# LA 2 = Essex 
+# LA 3 = Croydon 
+# LA 4 = Camden
+
 # Setting up dfs
 df = pd.read_excel(r'/workspaces/D2I-Jupyter-Notebook-Tools/p2a_analysis/mega matrix - with analysis.xlsx',
                   'All data items')
@@ -46,10 +51,10 @@ camden['text'] = camden['camden text'].astype(str).str.lower()
 
 total = pd.concat([sutton, camden, croydon, essex], axis=0).reset_index()
 
-df_dict={'Sutton':sutton,
-         'Essex':essex,
-         'Croydon':croydon,
-         'Camden':camden,
+df_dict={'LA 1':sutton,
+         'LA 2':essex,
+         'LA 3':croydon,
+         'LA 4':camden,
          'All LAs':total
          }
 #print(df_dict['All LAs'])
@@ -163,10 +168,10 @@ for key, value in df_dict.items():
     combined_sentiment_dfs[key] = sentiment_df
 
 plt.clf()
-all_sentiments = pd.concat([combined_sentiment_dfs['Sutton'], 
-                           combined_sentiment_dfs['Essex'], 
-                           combined_sentiment_dfs['Camden'], 
-                           combined_sentiment_dfs['Croydon'],
+all_sentiments = pd.concat([combined_sentiment_dfs['LA 1'], 
+                           combined_sentiment_dfs['LA 2'], 
+                           combined_sentiment_dfs['LA 3'],
+                           combined_sentiment_dfs['LA 4'], 
                            combined_sentiment_dfs['All LAs']], axis=0).reset_index()
 all_sentiments = all_sentiments[['compound', 'LA', 'sentiment']]
 #all_sentiments = all_sentiments[all_sentiments['sentiment'] != 'neutral']
@@ -183,7 +188,7 @@ plt.savefig(f'p2a_analysis/all LA sentiment box')
 
 # positive/negative sentiment comparisons
 plt.clf()
-sent_df.plot(x="Sentiment", y=["Essex", "Sutton", "Camden", "Croydon", "All LAs"], kind="bar")
+sent_df.plot(x="Sentiment", y=["LA 1", "LA 2", "LA 3", "LA 4", "All LAs"], kind="bar")
 plt.title('Comparison of percentage of questions with positive and negative sentiments')
 plt.ylabel('Percentage')
 plt.xlabel('Sentiment')
@@ -191,10 +196,10 @@ plt.savefig(f'p2a_analysis/percentage sentiment comparison.png', bbox_inches='ti
 
 
 # Getting top ten words from each LA from tuples
-sutton_10 = [i[0] for i in fdists['Sutton']]
-essex_10 = [i[0] for i in fdists['Essex']]
-croydon_10 = [i[0] for i in fdists['Croydon']]
-camden_10 = [i[0] for i in fdists['Camden']]
+sutton_10 = [i[0] for i in fdists['LA 1']]
+essex_10 = [i[0] for i in fdists['LA 2']]
+croydon_10 = [i[0] for i in fdists['LA 3']]
+camden_10 = [i[0] for i in fdists['LA 4']]
 
 top_10s_combined = sutton_10 + essex_10 + croydon_10 + camden_10 
 #print(top_10s_combined)
@@ -226,14 +231,14 @@ for key, value in df_dict.items():
 
 
 
-all_la_counts_df['sutton percentage'] = (all_la_counts_df['Sutton count']/574)*100
-all_la_counts_df['camden percentage'] = (all_la_counts_df['Camden count']/473)*100
-all_la_counts_df['essex percentage'] = (all_la_counts_df['Essex count']/434)*100
-all_la_counts_df['croydon percentage'] = (all_la_counts_df['Croydon count']/838)*100
+all_la_counts_df['LA 1 percentage'] = (all_la_counts_df['LA 1 count']/574)*100
+all_la_counts_df['LA 2 percentage'] = (all_la_counts_df['LA 2 count']/434)*100
+all_la_counts_df['LA 3 percentage'] = (all_la_counts_df['LA 3 count']/838)*100
+all_la_counts_df['LA 4 percentage'] = (all_la_counts_df['LA 4 count']/473)*100
 all_la_counts_df['All LA percentage'] = (all_la_counts_df['All LAs count']/2319)*100
 #print(all_la_counts_df)
 plt.clf()
-all_la_counts_df.plot(x="word", y=["sutton percentage", "essex percentage", "camden percentage", "croydon percentage", "All LA percentage"], kind="bar")
+all_la_counts_df.plot(x="word", y=["LA 1 percentage", "LA 2 percentage", "LA 3 percentage", "LA 4 percentage", "All LA percentage"], kind="bar")
 plt.title('Percentage of questions from each LA using a word from the combined list of top 10 words from All LAs')
 plt.ylabel('Percentage')
 plt.xlabel('Word')
@@ -279,13 +284,13 @@ for key, value in df_dict.items():
         feels_dict_long[key] = length
 
 feels_counts_df_short = pd.DataFrame(feels_dict_short.items(), columns=['LA', 'count'])
-feels_counts_df_short.loc[feels_counts_df_short.LA == 'Sutton', 'Percentage'] = (feels_counts_df_short['count']/574)*100
-feels_counts_df_short.loc[feels_counts_df_short.LA == 'Camden', 'Percentage'] = (feels_counts_df_short['count']/473)*100
-feels_counts_df_short.loc[feels_counts_df_short.LA == 'Essex', 'Percentage'] = (feels_counts_df_short['count']/434)*100
-feels_counts_df_short.loc[feels_counts_df_short.LA == 'Croydon', 'Percentage'] = (feels_counts_df_short['count']/838)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'LA 1', 'Percentage'] = (feels_counts_df_short['count']/574)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'LA 4', 'Percentage'] = (feels_counts_df_short['count']/473)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'LA 2', 'Percentage'] = (feels_counts_df_short['count']/434)*100
+feels_counts_df_short.loc[feels_counts_df_short.LA == 'LA 3', 'Percentage'] = (feels_counts_df_short['count']/838)*100
 
 plt.clf()
-feels_counts_df_short.plot(x="LA", y='Percentage', kind="bar")
+feels_counts_df_short.plot(x="LA", y='Percentage', kind="bar", color=['blue', 'orange', 'green', 'red'])
 plt.title('Percentage of questions using short list of words indicating a subjective view is observed')
 plt.ylabel('Percentage')
 plt.xlabel('LA')
@@ -293,13 +298,13 @@ plt.xlabel('LA')
 plt.savefig(f'p2a_analysis/feels counts short.png', bbox_inches='tight')
 
 feels_counts_df_long = pd.DataFrame(feels_dict_long.items(), columns=['LA', 'count'])
-feels_counts_df_long.loc[feels_counts_df_long.LA == 'Sutton', 'Percentage'] = (feels_counts_df_long['count']/574)*100
-feels_counts_df_long.loc[feels_counts_df_long.LA == 'Camden', 'Percentage'] = (feels_counts_df_long['count']/473)*100
-feels_counts_df_long.loc[feels_counts_df_long.LA == 'Essex', 'Percentage'] = (feels_counts_df_long['count']/434)*100
-feels_counts_df_long.loc[feels_counts_df_long.LA == 'Croydon', 'Percentage'] = (feels_counts_df_long['count']/838)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'LA 1', 'Percentage'] = (feels_counts_df_long['count']/574)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'LA 4', 'Percentage'] = (feels_counts_df_long['count']/473)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'LA 2', 'Percentage'] = (feels_counts_df_long['count']/434)*100
+feels_counts_df_long.loc[feels_counts_df_long.LA == 'LA 3', 'Percentage'] = (feels_counts_df_long['count']/838)*100
 
 plt.clf()
-feels_counts_df_long.plot(x="LA", y='Percentage', kind="bar")
+feels_counts_df_long.plot(x="LA", y='Percentage', kind="bar", color=['blue', 'orange', 'green', 'red'])
 plt.title('Percentage of questions using long list of words indicating a subjective view, or emotional state is observed')
 plt.ylabel('Percentage')
 plt.xlabel('LA')
