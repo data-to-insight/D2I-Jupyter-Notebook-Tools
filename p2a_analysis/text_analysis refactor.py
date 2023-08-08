@@ -263,6 +263,43 @@ feelings_words_short = ['view', 'feel', 'opinion']
 feelings_words_long = ['view', 'feel', 'opinion', 'aspiration', 'emotional', 'well-being', 'wellbeing', 'identity'] 
 
 
+# Data items unique to one LA
+just_essex = df[(df['essex text'].notna()) &
+                (df['sutton text'].isna()) &
+                (df['croydon text'].isna()) &
+                (df['camden text'].isna())]
+
+just_sutton = df[(df['sutton text'].notna()) &
+                (df['essex text'].isna()) &
+                (df['croydon text'].isna()) &
+                (df['camden text'].isna())]
+
+
+just_croydon = df[(df['croydon text'].notna()) &
+                (df['sutton text'].isna()) &
+                (df['essex text'].isna()) &
+                (df['camden text'].isna())]
+
+
+just_camden = df[(df['camden text'].notna()) &
+                (df['sutton text'].isna()) &
+                (df['croydon text'].isna()) &
+                (df['essex text'].isna())]
+only_one_la_dict = {'LA 1':len(just_sutton),
+                    'LA 2':len(just_essex),
+                    'LA 3':len(just_croydon),
+                    'LA 4':len(just_camden)}
+just_one_df = pd.DataFrame(only_one_la_dict.items(), columns=['LA', 'Unique questions'])
+plt.clf()
+just_one_df.plot(x="LA", y='Unique questions', kind="bar", color=['blue', 'orange', 'green', 'red'])
+plt.title('Questions unique to each LA')
+plt.ylabel('Unique questions')
+plt.xlabel('LA')
+plt.savefig(f'p2a_analysis/unique questions.png', bbox_inches='tight')
+
+for la, file in {'la 1':just_sutton, 'la 2':just_essex, 'la 3':just_croydon, 'la 4':just_camden}.items():
+    file = file[['data item', '']]
+    file.to_csv(f'p2a_analysis/{la} unique qs.csv', index=False)
 
 def feel_counts(df, list):
     df = df[(df['text'].str.contains('|'.join(list))) & (~df['text'].str.contains('review'))]
@@ -312,5 +349,5 @@ plt.xlabel('LA')
 plt.savefig(f'p2a_analysis/feels counts long.png', bbox_inches='tight')
 
 
-print(feels_counts_df_short)
-print(feels_counts_df_long)
+# print(feels_counts_df_short)
+# print(feels_counts_df_long)
