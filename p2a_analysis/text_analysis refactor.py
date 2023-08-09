@@ -298,9 +298,30 @@ plt.xlabel('LA')
 plt.savefig(f'p2a_analysis/unique questions.png', bbox_inches='tight')
 
 for la, file in {'la 1':just_sutton, 'la 2':just_essex, 'la 3':just_croydon, 'la 4':just_camden}.items():
-    file = file[['data item', '']]
     file.to_csv(f'p2a_analysis/{la} unique qs.csv', index=False)
 
+# Questions asked in only 3 LAs
+no_la_1 = df[(df['sutton text'].isna()) & (df['essex text'].notna()) & (df['croydon text'].notna()) & (df['camden text'].notna())]
+no_la_2 = df[(df['essex text'].isna()) & (df['sutton text'].notna()) & (df['croydon text'].notna()) & (df['camden text'].notna())]
+no_la_3 = df[(df['croydon text'].isna()) & (df['essex text'].notna()) & (df['sutton text'].notna()) & (df['camden text'].notna())]
+no_la_4 = df[(df['camden text'].isna()) & (df['essex text'].notna()) & (df['croydon text'].notna()) & (df['sutton text'].notna())]
+only_3_dict = {'LA 1':len(no_la_1),
+                'LA 2':len(no_la_2),
+                'LA 3':len(no_la_3),
+                'LA 4':len(no_la_4)}
+only_3_df = pd.DataFrame(only_3_dict.items(), columns=['LA', 'Questions in three other LAs not in this LA'])
+plt.clf()
+only_3_df.plot(x="LA", y='Questions in three other LAs not in this LA', kind="bar", color=['blue', 'orange', 'green', 'red'])
+plt.title('Number of questions in 3 LAs not in a given LA')
+plt.ylabel('Number of questions not features')
+plt.xlabel('LA')
+plt.savefig(f'p2a_analysis/unique non questions.png', bbox_inches='tight')
+
+for la, file in {'la 1':no_la_1, 'la 2':no_la_2, 'la 3':no_la_3, 'la 4':no_la_4}.items():
+    file.to_csv(f'p2a_analysis/{la} no qs.csv', index=False)
+
+
+# Voice of child plots
 def feel_counts(df, list):
     df = df[(df['text'].str.contains('|'.join(list))) & (~df['text'].str.contains('review'))]
     #df = df[(df['text'].str.contains('|'.join(feelings_words_long)))]
