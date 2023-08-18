@@ -174,11 +174,12 @@ all_sentiments = pd.concat([combined_sentiment_dfs['LA 1'],
                            combined_sentiment_dfs['LA 4'], 
                            combined_sentiment_dfs['All LAs']], axis=0).reset_index()
 all_sentiments = all_sentiments[['compound', 'LA', 'sentiment']]
+no_neutral_sentiments = all_sentiments[all_sentiments['sentiment'] != 'neutral']
 #all_sentiments = all_sentiments[all_sentiments['sentiment'] != 'neutral']
 
 count_box = sns.boxplot(y='compound',
             x='sentiment',
-            data=all_sentiments,
+            data=no_neutral_sentiments,
             hue='LA',);
 plt.title(f'All LAs compared distribution of sentiment scores')
 plt.xlabel('Sentiment')
