@@ -296,6 +296,7 @@ just_one_df.plot(x="LA", y='Unique questions', kind="bar", color=['blue', 'orang
 plt.title('Questions unique to each LA')
 plt.ylabel('Unique questions')
 plt.xlabel('LA')
+plt.legend('', frameon=False)
 plt.savefig(f'p2a_analysis/unique questions.png', bbox_inches='tight')
 
 for la, file in {'la 1':just_sutton, 'la 2':just_essex, 'la 3':just_croydon, 'la 4':just_camden}.items():
@@ -316,6 +317,7 @@ only_3_df.plot(x="LA", y='Questions in three other LAs not in this LA', kind="ba
 plt.title('Number of questions in 3 LAs not in a given LA')
 plt.ylabel('Number of questions not features')
 plt.xlabel('LA')
+plt.legend('', frameon=False)
 plt.savefig(f'p2a_analysis/unique non questions.png', bbox_inches='tight')
 
 for la, file in {'la 1':no_la_1, 'la 2':no_la_2, 'la 3':no_la_3, 'la 4':no_la_4}.items():
@@ -353,7 +355,7 @@ feels_counts_df_short.plot(x="LA", y='Percentage', kind="bar", color=['blue', 'o
 plt.title('Percentage of questions using short list of words indicating a subjective view is observed')
 plt.ylabel('Percentage')
 plt.xlabel('LA')
-
+plt.legend('', frameon=False)
 plt.savefig(f'p2a_analysis/feels counts short.png', bbox_inches='tight')
 
 feels_counts_df_long = pd.DataFrame(feels_dict_long.items(), columns=['LA', 'count'])
@@ -364,10 +366,10 @@ feels_counts_df_long.loc[feels_counts_df_long.LA == 'LA 3', 'Percentage'] = (fee
 
 plt.clf()
 feels_counts_df_long.plot(x="LA", y='Percentage', kind="bar", color=['blue', 'orange', 'green', 'red'])
-plt.title('Percentage of questions using long list of words indicating a subjective view, or emotional state is observed')
+plt.title(f'Percentage of questions using long list of words \n indicating a subjective view, or emotional state is observed')
 plt.ylabel('Percentage')
 plt.xlabel('LA')
-
+plt.legend('', frameon=False)
 plt.savefig(f'p2a_analysis/feels counts long.png', bbox_inches='tight')
 
 
