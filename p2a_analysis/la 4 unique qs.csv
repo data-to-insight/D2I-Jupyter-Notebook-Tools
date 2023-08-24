@@ -1,0 +1,270 @@
+data category,item number,data item,annex a  information captured,903 information captured,croydon text,croydon options,croydon forms,croydon reason for collecton,essex text,essex options,essex forms,essex reason for collection,sutton text,sutton options,sutton forms,sutton reason for collection,camden text,camden options,camden forms,camden reason for collection,were users asked specifically about this item (y/n),did users find it useful?,why was it found useful/not useful?
+,Item 20,Status under leaving care act,,,,,,,,,,,,,,,Status under the Leaving Care Act,,Pathway Needs Assessment,,,,
+,Item 112,"What support will the young person receive on leaving custody, including their looked after status?",,,,,,,,,,,,,,,"What support will the young person receive on leaving custody, including their looked after status?",N/A (Free text entry),Placement Plan,,,,
+,Item 151,SW/Professional -  Contribution to the plan,,,,,,,,,,,,,,,People involved in the assessment Contribution,,"Pathway Needs Assessment
+Request for placement and matching",,,,
+,Item 189,Details of involved professionals Person Working With,,,,,,,,,,,,,,,Details of involved professionals Person Working With,N/A (Free text entry),Request for placement and matching,,,,
+,Item 249,Has the child/young person's savings been transferred to the new placement?,,,,,,,,,,,,,,,Has the child/young person's savings been transferred to the new placement?,"Yes, No, N/A",Placement Plan,,,,
+,Item 265,"If the child has recourse to public funds, will a human rights assessment be carried out?",,,,,,,,,,,,,,,"If yes, will a human rights assessment also be carried out?",,Pathway Needs Assessment,,,,
+,Item 306,Was the child's bedroom seen?,,,,,,,,,,,,,,,"Was the child's bedroom seen?
+Has the child's bedroom been seen since the last review?",,"Pathway Needs Assessment
+CLA Visit
+CLA Updated assessment",,,,
+,Item 337,Child's current key stage,,,,,,,,,,,,,,,Current Key Stage,"Key stage 1, Key stage 2, Key stage 3, Key stage 4",Chair's monitoring form,,,,
+,Item 380,Birth location,,,,,,,,,,,,,,,Hospital or other location where born,N/A (Free text entry),CLA Placement and Health Consent Form,,,,
+,Item 387,GP of parent Name,,,,,,,,,,,,,,,GP of parent Name,,CLA Placement and Health Consent Form,,,,
+,Item 388,GP of parent Address,,,,,,,,,,,,,,,GP of parent Address,,CLA Placement and Health Consent Form,,,,
+,Item 389,GP of parent Telephone,,,,,,,,,,,,,,,GP of parent Telephone,,CLA Placement and Health Consent Form,,,,
+,Item 396,Dental appointment within 6 months?,,,,,,,,,,,,,,,Has the child had a dental appointment in the last 6 months?,"Yes, No",Chair's report - updated care plan,,,,
+,Item 420,Substance use intervention?,,Substance missuse intervention offered,,,,,,,,,,,,,"Substance misuse If Yes, has the child received an intervention for substance misuse problem?","Yes, No",Chair's monitoring form,,,,
+,Item 421,Child refused substance misuse intervention,,Substance missuse intervention refused,,,,,,,,,,,,,"Substance misuse If the child has NOT received an intervention, was the child offered an intervention but refused it?","Yes, No",Chair's monitoring form,,,,
+,Item 423,Are Youth Offending Services involved with the child?,,,,,,,,,,,,,,,Are the Youth Offending Services involved with this case ?,"Yes, No",Chair's monitoring form,,,,
+,Item 425,"CAMHS: If so, is CAMHS service provided by this LA or other borough PCT?",,,,,,,,,,,,,,,"CAMHS If so, is CAMHS service provided by Camden or other borough PCT?","In borough, Out of borough",Chair's monitoring form,,,,
+,Item 426,CAMHS: Name of borough if applicable,,,,,,,,,,,,,,,CAMHS Name of borough if applicable,N/A (Free text entry),Chair's monitoring form,,,,
+,Item 501,Foster carer role in contact,,,,,,,,,,,,,,,Foster carer's role in supervision,N/A (Free text entry),"Placement Plan
+Request for placement and matching",,,,
+,Item 519,People with whom the contact is restricted / forbidden - Subject,,,,,,,,,,,,,,,People with whom the contact is restricted / forbidden - Subject,Selection indicates child subject,Request for placement and matching,,,,
+,Item 525,Nature of contact restriction,,,,,,,,,,,,,,,People with whom the contact is restricted or terminated Nature of restriction or termination,N/A (Free text entry),Placement Plan,,,,
+,Item 526,"Arrangements for contact, including contact between separated siblings Arrangements (transport, location, supervision) ",,,,,,,,,,,,,,,"Arrangements for contact, including contact between separated siblings Arrangements (transport, location, supervision) ",N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Item 541,Outline the communication arrangements between the carer and local authority,,,,,,,,,,,,,,,Outline the communication arrangements between the carer and local authority,N/A (Free text entry),Placement Plan,,,,
+,Item 542,Outline the carer's responsibilities for notifying the child's social worker and local authority of any significant changes in the child's circumstances,,,,,,,,,,,,,,,Outline the carer's responsibilities for notifying the child's social worker and local authority of any significant changes in the child's circumstances,N/A (Free text entry),Placement Plan,,,,
+,Item 605,Is there an up to date Pathway Plan?,,,,,,,,,,,,,,,Is there an up to date Pathway Plan?,"Yes, Plan needs completing, Plan needs updating, Not applicable ",CLA review IRO monitoring info ,,,,
+,Item 610,Will this plan be used for a detention placement?,,,,,,,,,,,,,,,Will this be used as the detention placement plan?,"Yes, No",Placement Plan,,,,
+,Item 616,Chair's comments on permanence plan,,,,,,,,,,,,,,,Chairs comments on permanence plan,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Item 617,Why was this permanency plan chosen?,,,,,,,,,,,,,,,Please explain why this permanence plan was chosen,N/A (Free text entry),CLA Updated assessment ,,,,
+,Item 618,How will the permanency plan be pursued?,,,,,,,,,,,,,,,Details of any actions taken to pursue this,N/A (Free text entry),CLA Updated assessment ,,,,
+,Item 663,Copy of placement plan provided to: Foster carer/Residential worker,,,,,,,,,,,,,,,Copy of placement plan provided to: Foster carer/Residential worker,"Yes, No",Placement Plan,,,,
+,Item 788,Alternative placement choice,,,,,,,,,,,,,,,Alternative choice of Placement type,"Foster Care, Residential Care, Parent and Child Placement, Other, N/A",Request for placement and matching,,,,
+,Item 816,Reason(s) for choosing this placement Addressing safeguarding needs,,,,,,,,,,,,,,,Reason(s) for choosing this placement Addressing safeguarding needs,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 817,Reason(s) for choosing this placement Health,,,,,,,,,,,,,,,Reason(s) for choosing this placement Health,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 818,Reason(s) for choosing this placement Contact arrangements,,,,,,,,,,,,,,,Reason(s) for choosing this placement Contact arrangements,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 819,Reason(s) for choosing this placement Emotional and behavioural development and social presentation,,,,,,,,,,,,,,,Reason(s) for choosing this placement Emotional and behavioural development and social presentation,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 820,Reason(s) for choosing this placement Views of child,,,,,,,,,,,,,,,Reason(s) for choosing this placement Views of child,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 821,Reason(s) for choosing this placement Views of parents,,,,,,,,,,,,,,,Reason(s) for choosing this placement Views of parents,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 822,Reason(s) for choosing this placement Personal attributes of carer,,,,,,,,,,,,,,,Reason(s) for choosing this placement Personal attributes of carer,Please record under each heading selected to demonstrate how the placement will meet the CYP's needs,Request for placement and matching,,,,
+,Item 830,Matching criteria for alternative placement choice,,,,,,,,,,,,,,,Matching considerations for alternative placement,N/A (Free text entry),Request for placement and matching,,,,
+,Item 869,Details of placement agreement,,,,,,,,,,,,,,,Further details,,Record of accommodation decision,,,,
+,Item 901,Priority on next steps,,,,,,,,,,,,,,,Set priority,"Urgent, Normal, Low",Record of accommodation decision,,,,
+,Item 902,Note on next steps,,,,,,,,,,,,,,,Note,N/A (Free text entry),Record of accommodation decision,,,,
+,Item 903,Send next steps on immediately?,,,,,,,,,,,,,,,Send Immediately?,,Record of accommodation decision,,,,
+,Item 904,Send next steps to SW?,,,,,,,,,,,,,,,Pass to worker,,Record of accommodation decision,,,,
+,Item 914,Is the child/young person from this LA?,,,,,,,,,,,,,,,Is this CYP placed outside of Camden?,"Yes, No",Request for placement and matching,,,,
+,Item 994,Has accommodation been considered with: other parent,,,,,,,,,,,,,,,Have the following options been explored? Other parent,,Record of accommodation decision,,,,
+,Item 995,Has accommodation been considered with: grandparents,,,,,,,,,,,,,,,Have the following options been explored? Grandparents,,Record of accommodation decision,,,,
+,Item 996,Has accommodation been considered with: extended family members,,,,,,,,,,,,,,,Have the following options been explored? Extended family members,,Record of accommodation decision,,,,
+,Item 997,Has accommodation been considered with: other connected people,,,,,,,,,,,,,,,Have the following options been explored? Other Connected Person,,Record of accommodation decision,,,,
+,Item 998,Has a family group conference been arranged?,,,,,,,,,,,,,,,Has a Family Group Conference been arranged?,"Yes, No",Record of accommodation decision,,,,
+,Item 999,Has search for residential accommodation been agreed?,,,,,,,,,,,,,,,Has search for residential accommodation been agreed?,"Yes, No",Record of accommodation decision,,,,
+,Item 1000,Has search for P&V fostering been agreed?,,,,,,,,,,,,,,,Has search for P&V fostering been agreed?,"Yes, No",Record of accommodation decision,,,,
+,Item 1004,"If not involved in any leisure activities, why not?",,,,,,,,,,,,,,,"If not involved in any leisure activities, why not?","Doesn't want to, Not easily accessible, Lack of resources, Not known",CLA review IRO monitoring info ,,,,
+,Item 1039,CLA Visit status,,,,,,,,,,,,,,,Visit status,"Took Place, Did Not Take Place",CLA Visit,,,,
+,Item 1040,Reason CLA Visit did not happen,,,,,,,,,,,,,,,Reason visit did not take place,"COVID19 - Cancelled by client due to coronavirus, COVID19 - Cancelled by Social Services due to coronavirus, COVID19 - Visit undertaken by phone/Skype due to coronavirus
+Cancelled by client, Cancelled by Social Services, Client refused visit, Denied Access, Emergency, Family Living Abroad, Family Missing, Family on Holiday, Family Temporarily out of country, No-one at home
+Other reason why visit not made, Visit not required - case to be closed",CLA Visit,,,,
+,Item 1041,Last CLA meeting date,,,,,,,,,,,,,,,Date of last meeting,,CLA Review record of meeting,,,,
+,Item 1042,Current CLA meeting date,,,,,,,,,,,,,,,Date of this meeting,,CLA Review record of meeting,,,,
+,Item 1043,Type of CLA meeting,,,,,,,,,,,,,,,Type of review,"First review, Second review, Subsequent review",CLA Review record of meeting,,,,
+,Item 1047,CLA review held within statutory timeframe?,,,,,,,,,,,,,,,Was Review Meeting held by the statutory due date ?,"Yes, No",Chair's monitoring form,,,,
+,Item 1048,Review outside of timeframe reason: sickness,,,,,,,,,,,,,,,"If delayed, please tick below Sickness: please state who",,Chair's monitoring form,,,,
+,Item 1049,Review outside of timeframe reason: Attendance at court,,,,,,,,,,,,,,,"If delayed, please tick below Attendance at Court: Please state who",,Chair's monitoring form,,,,
+,Item 1050,Review outside of timeframe reason: other,,,,,,,,,,,,,,,"If delayed, please tick below Other, please specify",,Chair's monitoring form,,,,
+,Item 1058,"If other location, specify",,,,,,,,,,,,,,,"If other, please specify",N/A (Free text entry),CLA review IRO monitoring info ,,,,
+,Item 1061,Who attended the CLA review,,,,,,,,,,,,,,,People attending the meeting,"Name
+Agency
+Contact Details
+Attendance
+Organisation
+Invited
+Attended","Chair's report - updated care plan
+CLA Review Record of meeting",,,,
+,Item 1062,How did CLA review participant contribute?,,CYPs method of participation,,,,,,,,,,,,,Attendees How did the participant contribute?	,"Written report, Verbal, Consultation document, Other",CLA Review record of meeting,,,,
+,Item 1063,Attendees to CLA review to receive chair's report?,,,,,,,,,,,,,,,Attendees To receive copy of chair's report,,CLA Review record of meeting,,,,
+,Item 1073,Has the child seen the CLA report?,,,,,,,,,,,,,,,Has this report been shared with the child/young person at least 2 days prior to the review in an age-appropriate form?,"Yes, No",CLA review IRO monitoring info ,,,,
+,Item 1074,Have the parents seen the CLA report?,,,,,,,,,,,,,,,Has this report been shared with the parents/holders of Parental Responsibility for the child at least 2 days prior to the review?,"Yes, No",CLA review IRO monitoring info ,,,,
+,Item 1075,Who was involved in the CLA review: Carer,,,,,,,,,,,,,,,Were the following people involved in the review process? Carers,"Sent consultation form, Returned consultation form, Invited, Present",Chair's monitoring form,,,,
+,Item 1076,Who was involved in the CLA review: Parents/PR,,,,,,,,,,,,,,,Were the following people involved in the review process? Parents/PR,"Sent consultation form, Returned consultation form, Invited, Present",Chair's monitoring form,,,,
+,Item 1077,Who was involved in the CLA review: Education,,,,,,,,,,,,,,,Were the following people involved in the review process? Education,"Sent consultation form, Returned consultation form, Invited, Present",Chair's monitoring form,,,,
+,Item 1078,Who was involved in the CLA review: Health,,,,,,,,,,,,,,,Were the following people involved in the review process? Health,"Sent consultation form, Returned consultation form, Invited, Present",Chair's monitoring form,,,,
+,Item 1079,Who was involved in the CLA review: significant information,,,,,,,,,,,,,,,Were the following people involved in the review process? Significant information,"Sent consultation form, Returned consultation form, Invited, Present",Chair's monitoring form,,,,
+,Item 1080,Comments on who was involved with the care review,,,,,,,,,,,,,,,Comments,N/A (Free text entry),Chair's monitoring form,,,,
+,Item 1081,How was the child encouraged to take part or contribute to the meeting?,,,,,,,,,,,,,,,How was the child encouraged to take part or contribute to the meeting?,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Item 1082,Has it been agreed that the child can be visited at a minimum of every 3 months,,,,,,,,,,,,,,,Has it been agreed that the child can be visited at a minimum of every 3 months,"Yes, No",Chair's report - updated care plan,,,,
+,Item 1085,How others feel - CLA Review,,,,,,,,,,,,,,,Views of others,"Name
+Relationship
+Views",,,,,
+,Item 1090,"If the birth mother did not attend, identify the reason",,,,,,,,,,,,,,,"If the birth mother did not attend, identify the reason","Deceased, Invited but did not attend, Whereabouts unknown, Adoption placement, Seen separately, Not invited, Other",CLA review IRO monitoring info ,,,,
+,Item 1091,"If the birth father did not attend, identify the reason",,,,,,,,,,,,,,,"If the birth father did not attend, identify the reason","Deceased, Invited but did not attend, Whereabouts unknown, Adoption placement, Seen separately, Not invited, Other",CLA review IRO monitoring info ,,,,
+,Item 1096,Contact arrangements as result of CLA Review,,,,,,,,,,,,,,,Contact arrangements,"Current contact arrangements are to continue, Changes to contact arrangements are required",CLA Review record of meeting,,,,
+,Item 1098,Details of changes to plan given CLA Review,,,,,,,,,,,,,,,Details of any changes agreed,"Recommendation
+Person/agency responsible
+Target date",CLA Review record of meeting,,,,
+,Item 1118,Is this review authorising a long-term fostering placement for a young person aged 16/17?,,,,,,,,,,,,,,,Is this review authorising a long-term fostering placement for a young person aged 16/17?,"Yes, No",Chair's report - updated care plan,,,,
+,Item 1120,Is this review authorising a child’s return home as their permanence plan?,,,,,,,,,,,,,,,Is this review authorising a child’s return home as their permanence plan?,"Yes, No",Chair's report - updated care plan,,,,
+,Item 1171,Assistant director sign off for permanency matching,,,,,,,,,,,,,,,Assistant Director (This only needs to be signed off by the Assistant Director when permanency matching),,Chair's report - updated care plan,,,,
+,Item 1172,Forms to distribute as a result of CLA review: SW assessment,,,,,,,,,,,,,,,Which forms/reports should be distributed? SW updated assessment,,Chair's report - updated care plan,,,,
+,Item 1173,Forms to distribute as a result of CLA review: chair's report,,,,,,,,,,,,,,,Which forms/reports should be distributed? Chairs report,,Chair's report - updated care plan,,,,
+,Item 1174,Forms to distribute as a result of CLA review: others,,,,,,,,,,,,,,,Which forms/reports should be distributed? Other forms/reports,,Chair's report - updated care plan,,,,
+,Item 1175,Forms to distribute as a result of CLA review: specify,,,,,,,,,,,,,,,Which forms/reports should be distributed? Please specify,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Item 1176,Record of form distribution,,,,,,,,,,,,,,,Distribution of Review Record Name/ Agency,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Item 1177,Record of form distribution date,,,,,,,,,,,,,,,Distribution of Review Record Date distributed,,Chair's report - updated care plan,,,,
+,Item 1203,Is there an up to date Adoption Plan?,,,,,,,,,,,,,,,Is there an up to date Adoption Plan?,"Yes, Plan needs completing, Plan needs updating, Not applicable ",CLA review IRO monitoring info ,,,,
+,Item 1206,Fostering and Permanence Panel Date of meeting,,,,,,,,,,,,,,,Fostering and Permanence Panel Date of meeting,,Chair's report - updated care plan,,,,
+,Item 1209,Regional Adoption Agency Panel Date of meeting,,,,,,,,,,,,,,,Regional Adoption Agency Panel Date of meeting,,Chair's report - updated care plan,,,,
+,Item 1234,CLA Review information sharing agreement,,,,,,,,,,,,,,,Consent to information sharing (Parent/Carer/Young person),N/A (Free text entry),Chair's report - updated care plan,,,,
+,Item 1235,Next action from CLA Review,,,,,,,,,,,,,,,Next action,"IRO Alert, CLA Chairs Update child or young person's care plan (CSSW), Repeat Assessment, Social worker's report for CLA review (CSSW), Initial CIN Review Meeting, Discharge from care, Initial Pathway Plan Review, Start second child looked after review, End workflow (Change of placement / Care leaver)",CLA Review record of meeting,,,,
+,Item 1236,Next action from CLA review assignee,,,,,,,,,,,,,,,Assigned to,,CLA Review record of meeting,,,,
+,Item 1237,Next action from CLA Review reason,,,,,,,,,,,,,,,Reason,N/A (Free text entry),CLA Review record of meeting,,,,
+,Item 1238,Next action from CLA Review Note,,,,,,,,,,,,,,,Note,N/A (Free text entry),CLA Review record of meeting,,,,
+,Item 1239,Next action from CLA Review priority,,,,,,,,,,,,,,,Set priority,"Urgent, Normal, Low",CLA Review record of meeting,,,,
+,Item 1240,Next action from CLA Review Send immediately?,,,,,,,,,,,,,,,Send Immediately?,,CLA Review record of meeting,,,,
+,Iterm 1249,Care plan What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,Care plan What needs to change to meet the child's needs (outcome),N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1250,Care plan: What actions will be taken,,,,,,,,,,,,,,,Care plan What actions will be taken,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1251,Care plan: Who will be responsible,,,,,,,,,,,,,,,Care plan Who will be responsible,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1252,Care plan: When does it need to be done,,,,,,,,,,,,,,,Care plan When does it need to be done,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1253,How will we know if the care plan is working?,,,,,,,,,,,,,,,How will we know if the care plan is working (outcomes)?,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1254,What to do if the care plan isn't working?,,,,,,,,,,,,,,,What actions will be taken if the care plan does not work or cannot be carried out (contingency plan)?,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1255,Progress on Care plan What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,Progress on Care plan What needs to change to meet the child's needs (outcome),N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1256,Progress on Care plan What actions will be taken,,,,,,,,,,,,,,,Progress on Care plan What actions will be taken,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1257,Progress on Care plan Who will be responsible,,,,,,,,,,,,,,,Progress on Care plan Who will be responsible,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1258,Progress on Care plan When does it need to be done,,,,,,,,,,,,,,,Progress on Care plan When does it need to be done,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1259,Progress on Care plan Progress,,,,,,,,,,,,,,,Progress on Care plan Progress,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1260,Permanence Plan: What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,Permanence Plan What needs to change to meet the child's needs (outcome),N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1261,Permanence Plan: What actions will be taken,,,,,,,,,,,,,,,Permanence Plan What actions will be taken,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1262,Permanence Plan: Who will be responsible,,,,,,,,,,,,,,,Permanence Plan Who will be responsible,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1263,Permanence Plan: When does it need to be done,,,,,,,,,,,,,,,Permanence Plan When does it need to be done,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1264,Permanence Plan: Progress,,,,,,,,,,,,,,,Permanence Plan Progress,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1265,Health Plan: What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,Health Plan What needs to change to meet the child's needs (outcome),N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1266,Health Plan: What actions will be taken,,,,,,,,,,,,,,,Health Plan What actions will be taken,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1267,Health Plan: Who will be responsible,,,,,,,,,,,,,,,Health Plan Who will be responsible,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1268,Health Plan: When does it need to be done,,,,,,,,,,,,,,,Health Plan When does it need to be done,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1269,Health Plan: Progress,,,,,,,,,,,,,,,Health Plan Progress,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1270,PEP: What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,PEP What needs to change to meet the child's needs (outcome),N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1271,PEP: What actions will be taken,,,,,,,,,,,,,,,PEP What actions will be taken,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1272,PEP: Who will be responsible,,,,,,,,,,,,,,,PEP Who will be responsible,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1273,PEP: When does it need to be done,,,,,,,,,,,,,,,PEP When does it need to be done,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1274,PEP: Progress,,,,,,,,,,,,,,,PEP Progress,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1275,PEP: How will the pupil premium be used to support this action	,,,,,,,,,,,,,,,PEP How will the pupil premium be used to support this action	,N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1276,Will this child remain subject to an exploitation plan?,,,,,,,,,,,,,,,Will this child remain subject to an exploitation plan?,"Yes, No, N/A","CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1277,"If No, what date did exploitation planning end?",,,,,,,,,,,,,,,"If No, what date did exploitation planning end?",,"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1278,Exploitation plan: What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,Exploitation plan What needs to change to meet the child's needs (outcome),N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1279,Exploitation plan: What actions will be taken,,,,,,,,,,,,,,,Exploitation plan What actions will be taken,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1280,Exploitation plan: Who will be responsible,,,,,,,,,,,,,,,Exploitation plan Who will be responsible,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1281,Exploitation plan: When does it need to be done,,,,,,,,,,,,,,,Exploitation plan When does it need to be done,N/A (Free text entry),"CLA Updated assessment 
+Chair's report - updated care plan",,,,
+,Iterm 1282,Pathway Plan - only to be completed when child transitions to 16+ What needs to change to meet the child's needs (outcome),,,,,,,,,,,,,,,Pathway Plan - only to be completed when child transitions to 16+ What needs to change to meet the child's needs (outcome),N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1283,Pathway Plan - only to be completed when child transitions to 16+ What actions will be taken,,,,,,,,,,,,,,,Pathway Plan - only to be completed when child transitions to 16+ What actions will be taken,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1284,Pathway Plan - only to be completed when child transitions to 16+ Who will be responsible,,,,,,,,,,,,,,,Pathway Plan - only to be completed when child transitions to 16+ Who will be responsible,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1285,Pathway Plan - only to be completed when child transitions to 16+ When does it need to be done,,,,,,,,,,,,,,,Pathway Plan - only to be completed when child transitions to 16+ When does it need to be done,N/A (Free text entry),Chair's report - updated care plan,,,,
+,Iterm 1286,Does the worker think a child sexual exploitation risk assessment is useful in this case?,,,,,,,,,,,,,,,Do you think a CSE Risk Assessment may be useful in this case?,"Yes, No",CLA Updated assessment ,,,,
+,Iterm 1287,"For young people aged 16/17 who have recently become looked after, has a matching and linking report been completed?",,,,,,,,,,,,,,,"For young people aged 16/17 who have recently become looked after, has a matching and linking report been completed?","Yes, No
+Date",CLA Updated assessment ,,,,
+,Iterm 1288,"For children under 16, has the child's Form E been completed?",,,,,,,,,,,,,,,"For children under 16, has the child's Form E been completed?","Yes, No
+Date",CLA Updated assessment ,,,,
+,Iterm 1289,Has the Criteria meeting been held?,,,,,,,,,,,,,,,Has the Criteria meeting been held?,"Yes, No
+Date",CLA Updated assessment ,,,,
+,Iterm 1290,Has the Family Finder completed the matching report?,,,,,,,,,,,,,,,Has the Family Finder completed the matching report?,"Yes, No
+Date",CLA Updated assessment ,,,,
+,Iterm 1291,Does the review indicate the permanency plan needs to change?,,,,,,,,,,,,,,,Does the child’s permanence plan need to change?,"Yes, No",CLA Updated assessment ,,,,
+,Iterm 1292,What does the review suggest is an alternative for the permanency plan?,,,,,,,,,,,,,,,"If yes, please explain why and recommendations for an alternative permanence plan",N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1293,Timescale and person responsible for changing permanency plan?,,,,,,,,,,,,,,,"Does the plan need to be changed and if so what changes are recommended? Include actions, timescales and who is responsible",N/A (Free text entry),CLA Updated assessment ,,,,
+,Iterm 1294,Does the child's plan include planned short-term breaks?,,,,,,,,,,,,,,,Does the child's plan include planned short-term breaks?,"Yes, No",CLA Updated assessment ,,,,
+,Iterm 1297,Updated CLA assessment,,,,,,,,,,,,,,,Updated assessment,N/A (Free text entry),CLA Updated assessment ,,,,
+,Item 1334,Reason for discharge from care,Reason ceased to be looked after,Reason ceased to be looked after,,,,,,,,,,,,,Reason ceased to be looked after,"E11: Adopted – application for an adoption order unopposed, E12: Adopted – consent dispensed with by the court, E2: Child died, E3: Care taken over by another local authority in the UK, E4A: Returned home to live with parent(s), relative(s), or other person(s) with PR as part of care planning process (NOT under SGO or residence order/child arrangement order), E4B: Returned home to live with parent(s), relative(s), or other person(s) with PR which was NOT part of care planning process (NOT under a SGO or residence order/child arrangement order), E13: Left care to live with parent(s), relative(s), or other person(s) with NO PR, E41: Residence order (or, from 22 April 2014, a child arrangement order which sets out with whom the child is to live) granted, E45: SGO made to former foster carer(s), who was/are a relative(s) or friend(s), E46: SGO made to former foster carer(s), other than relative(s) or friend(s), E47: SGO made to carer(s), other than former foster carer(s), who was/are a relative(s) or friend(s), E48: SGO made to carer(s), other than former foster carer(s), other than relative(s) or friend(s)E5: Moved to independent living arrangement: supportive accommodation providing formalised advice/support arrangements. Can apply to both children discharged from care before and at age 18, E6: Moved to independent living arrangement: accommodation providing NO formalised advice/support arrangements (such as bedsit, own flat, living with friends). Can apply to both children discharged from care before and at age 18, E7: Transferred to residential care funded by adult social care services, E9: Sentenced to custody, E14: Accommodation on remand ended, E15: Age assessment determined child is aged 18 or over (a UASC whose age has been disputed), E16: Child moved abroad, E17: Child turned 18 and remained with current carers (all placement types inc. staying put arrangements). MUST NOT BE SELECTED FOR CHILDREN DISCHARGED FROM CARE WHO ARE AGED UNDER 18, E8: Period of being looked-after ceased for any other reason (only to be used where none of the other options apply)",Discharge from care,,,,
+,Item 1335,Date to discharge from care,Date for discharge from care,Date for discharge from care,,,,,,,,,,,,,"
+
+
+Date to be discharged from care (if known)",,"Chair's report - updated care plan
+Discharge from care",,,,
+,Item 1336,Has the DWP been informed the Child/Young Person is being discharge from care,,,,,,,,,,,,,,,Has the DWP been informed that the child is being /has been discharged from care,"Yes, No",Discharge from care,,,,
+,Item 1337,Has the computer system been updated in light of the child leaving care?,,,,,,,,,,,,,,,Have any future LAC reviews been cancelled on the system?,"Yes, No",Discharge from care,,,,
+,Item 1338,Date child turns 18,,,,,,,,,,,,,,,"
+
+
+Date child turns 18",,Chair's report - updated care plan,,,,
+,Item 1342,Next action for child leaving care,,,,,,,,,,,,,,,Next action,"Closure Record, Initial CIN Review Meeting, Ongoing CP Investigation/Plan, Remains Open for CYPDS Short Breaks provision only, YP turned 18",Discharge from care,,,,
+,Item 1343,Assignees for actions on child leaving care,,,,,,,,,,,,,,,Assigned to,N/A (Free text entry),Discharge from care,,,,
+,Item 1344,reason for next action for child leaving care,,,,,,,,,,,,,,,Reason,N/A (Free text entry),Discharge from care,,,,
+,Item 1345,Notes on next action for child leaving care,,,,,,,,,,,,,,,Note,N/A (Free text entry),Discharge from care,,,,
+,Item 1346,Priority for action for child leaving care,,,,,,,,,,,,,,,Set priority,"Urgent, Normal, Low",Discharge from care,,,,
+,Item 1347,Status of actions on child leaving care,,,,,,,,,,,,,,,Status,,Discharge from care,,,,
+,Item 1416,Young person CLA Agreement date,,,,,,,,,,,,,,,Young person Date,,CLA Placement and Health Consent Form,,,,
+,Item 1417,Parental responsibility person name,,,,,,,,,,,,,,,Parent (or person with parental responsibility) Name,,CLA Placement and Health Consent Form,,,,
+,Item 1419,Parental responsibility consent,,,,,,,,,,,,,,,Parent (or person with parental responsibility) I/we consent to,,CLA Placement and Health Consent Form,,,,
+,Item 1420,Consent by parents  I/we consent to,,,,,,,,,,,,,,,Consent by parents  I/we consent to,,CLA Placement and Health Consent Form,,,,
+,Item 1421,Parental responsibility agreement,,,,,,,,,,,,,,,Parent (or person with parental responsibility) I/we understand that we retain parental responsibility for my/our child and would like to be consulted on the following aspects of their care.,N/A (Free text entry),CLA Placement and Health Consent Form,,,,
+,Item 1424,"Residential worker, foster carer or housing pathway keyworker Name",,,,,,,,,,,,,,,"Residential worker, foster carer or housing pathway keyworker Name",N/A (Free text entry),CLA Placement and Health Consent Form,,,,
+,Item 1425,"Residential worker, foster carer or housing pathway keyworker Date",,,,,,,,,,,,,,,"Residential worker, foster carer or housing pathway keyworker Date",,CLA Placement and Health Consent Form,,,,
+,Item 1427,Social worker CLA agreement date,,,,,,,,,,,,,,,Social Worker Date,,CLA Placement and Health Consent Form,,,,
+,Item 1452,People seen relationship,,,,,,,,,,,,,,,Persons Seen Relationship,N/A (Free text entry),CLA Visit,,,,
+,Item 1463,SW completing visit,,,,,,,,,,,,,,,Visit completed by ,Checking adds details of worker who entered information,CLA Visit,,,,
+,Item 1465,Next actions from CLA Visit,,,,,,,,,,,,,,,Next action,"Next child looked after visit
+No further CLA visit required",CLA Visit,,,,
+,Item 1466,Set priority for actions from CLA visit,,,,,,,,,,,,,,,Set priority,"Urgent, Normal, Low",CLA Visit,,,,
+,Item 1467,Notes on actions from CLA Visit,,,,,,,,,,,,,,,Note,,CLA Visit,,,,
+,Item 1468,Send immediately for actions from CLA Visit,,,,,,,,,,,,,,,Send Immediately?,,CLA Visit,,,,
+,Item 1469,Pass actions from CLA Visit to worker,,,,,,,,,,,,,,,Pass to worker,,CLA Visit,,,,
+,Item 1782,What aspects of day to day have not been delegated to the carer?,,,,,,,,,,,,,,,What aspects of day to day have not been delegated to the carer?,N/A (Free text entry),Placement Plan,,,,
+,Item 1812,Head of service consent for medical treatments,,,,,,,,,,,,,,,Consent by the Head of Service for CLA for medical treatment I confirm that,"Yes/No
+Date
+Signature",CLA Placement and Health Consent Form,,,,
+,Item 1813,Head of service specific treatment consent,,,,,,,,,,,,,,,"Consent by the Director for CLA for medical treatment As their corporate parent, I consent to the child receiving the above-mentioned medical treatment for as long as the care order is in place and delegate responsibility for decisions to","Name
+Date 
+Signature
+Confirmation
+Confirmation child is CLA
+Confirmation of delegation of responsibility",CLA Placement and Health Consent Form,,,,
+,Item 1814,Person with parental responsibility medical consent,,,,,,,,,,,,,,,Parent (or other person with PR) consent regarding child's health information,"YES
+NO
+Signature
+Date",,,,,
+,Item 1815,"Medical consent by carer, residential worker",,,,,,,,,,,,,,,To be signed by foster carer or residential worker for child subject to an ICO or Full Care Order PROFESSIONAL DESIGNATION,"Professional designation
+Name
+Date
+Signature",CLA Placement and Health Consent Form,,,,
+,Item 1591,"If the review was not held within timescales, identify the reason",,,,,,,,,,,,,,,"If the review was not held within timescales, identify the reason","Social Worker unavailable, IRO unavailable, Cancelled due to ill health of key participant, Other",CLA review IRO monitoring info ,,,,
+,Item 1592,Were all significant people consulted / involved in preparing for the review meeting?,,,,,,,,,,,,,,,Were all significant people consulted / involved in preparing for the review meeting?,"Yes, No",CLA review IRO monitoring info ,,,,
+,Item 1593,Have carers completed the consultation booklets?,,,,,,,,,,,,,,,Have carers completed the consultation booklets?,"Yes, No, Not applicable, Not known",CLA review IRO monitoring info ,,,,
+,Item 1594,Did the Social Worker attend the review?,,,,,,,,,,,,,,,Did the Social Worker attend the review?,"Yes, No, Not known",CLA review IRO monitoring info ,,,,
+,Item 1595,"If applicable, did the supervising Social Worker attend the review?",,,,,,,,,,,,,,,"If applicable, did the supervising Social Worker attend the review?","Yes, No, Not applicable, Not known",CLA review IRO monitoring info ,,,,
+,Item 1596,"If applicable, did the adoption Social Worker attend the review?",,,,,,,,,,,,,,,"If applicable, did the adoption Social Worker attend the review?","Yes, No, Not applicable, Not known",CLA review IRO monitoring info ,,,,
+,Item 1597,Any other information about the appropriateness of the placement in relation to race / religion / culture / language,,,,,,,,,,,,,,,Any other information about the appropriateness of the placement in relation to race / religion / culture / language,N/A (Free text entry),CLA review IRO monitoring info ,,,,
+,Item 1598,Is there anything else which could have been done to meet the young person’s needs (including disability / race / religion / cultural / language issues)?,,,,,,,,,,,,,,,Is there anything else which could have been done to meet the young person’s needs (including disability / race / religion / cultural / language issues)?,N/A (Free text entry),CLA review IRO monitoring info ,,,,
+,Item 1602,"If the child / young person attended describe how they were supposed to contribute. If they did not attend, please record why",,,,,,,,,,,,,,,"If the child / young person attended describe how they were supposed to contribute. If they did not attend, please record why",N/A (Free text entry),CLA review IRO monitoring info ,,,,
+,Item 1603,Child / young person consulted on issues related to review meeting,,,,,,,,,,,,,,,Child / young person consulted on issues related to review meeting,"Date, Time, Venue, Agenda, Participants",CLA review IRO monitoring info ,,,,
+,Item 1604,"If the child / young person was not consulted, explain why",,,,,,,,,,,,,,,"If the child / young person was not consulted, explain why",N/A (Free text entry),CLA review IRO monitoring info ,,,,
+,Item 1605,How were the birth mother's views obtained?,,,,,,,,,,,,,,,How were the birth mother's views obtained?,"Attended review, Via an Advocate / Social Worker, Not obtained, Seen by IRO, British Sign Language, Consultation booklet, Makaton, Electronic communication, Written communication, Telephone, Interpreter",CLA review IRO monitoring info ,,,,
+,Item 1606,How were the birth father's views obtained?,,,,,,,,,,,,,,,How were the birth father's views obtained?,"Attended review, Via an Advocate / Social Worker, Not obtained, Seen by IRO, British Sign Language, Consultation booklet, Makaton, Electronic communication, Written communication, Telephone, Interpreter",CLA review IRO monitoring info ,,,,
+,Item 1607,"If applicable, has a Permanence Plan been agreed by the four month review?",,,,,,,,,,,,,,,"If applicable, has a Permanence Plan been agreed by the four month review?","Yes, No, Not applicable, Not known",CLA review IRO monitoring info ,,,,
+,Item 1608,Does the young person have an exit plan?,,,,,,,,,,,,,,,Does the young person have an exit plan?,"Yes, No, Not known",CLA review IRO monitoring info ,,,,
+,Item 1609,"If applicable, was the review combined with an Annual Education Review?",,,,,,,,,,,,,,,"If applicable, was the review combined with an Annual Education Review?","Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1610,"If applicable, has a Life Story Book been given to adopters by the first review of placement?",,,,,,,,,,,,,,,"If applicable, has a Life Story Book been given to adopters by the first review of placement?","Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1611,OC2 substance misuse information Does the child / young person have a substance misuse problem?,,,,,,,,,,,,,,,OC2 substance misuse information Does the child / young person have a substance misuse problem?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1612,OC2 substance misuse information Does the child / young person receive intervention for any substance misuse problem?,,Substance use intervention received,,,,,,,,,,,,,OC2 substance misuse information Does the child / young person receive intervention for any substance misuse problem?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1613,OC2 substance misuse information Was the child / young person offered intervention but refused it?,,Substance use intervention received,,,,,,,,,,,,,OC2 substance misuse information Was the child / young person offered intervention but refused it?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1614,OC2 substance misuse information Is the child / young person involved with guns or gangs?,,,,,,,,,,,,,,,OC2 substance misuse information Is the child / young person involved with guns or gangs?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1615,OC2 substance misuse information Is there a sexual exploitation issue for the child / young person?,,,,,,,,,,,,,,,OC2 substance misuse information Is there a sexual exploitation issue for the child / young person?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1616,OC2 substance misuse information Is there a mental health issue for the child / young person?,,,,,,,,,,,,,,,OC2 substance misuse information Is there a mental health issue for the child / young person?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1617,OC2 substance misuse information Is the child / young person involved in absconding / going missing from home?,,,,,,,,,,,,,,,OC2 substance misuse information Is the child / young person involved in absconding / going missing from home?,"Yes, No, Not known, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1618,ls there an up to date Child / Young Person's Plan?,,,,,,,,,,,,,,,ls there an up to date Child / Young Person's Plan?,"Yes, Plan needs completing, Plan needs updating",CLA review IRO monitoring info ,,,,
+,Item 1619,Is there an up to date Care Plan?,,,,,,,,,,,,,,,Is there an up to date Care Plan?,"Yes, Plan needs completing, Plan needs updating",CLA review IRO monitoring info ,,,,
+,Item 1620,Is there an up to date Child Protection Plan?,,,,,,,,,,,,,,,Is there an up to date Child Protection Plan?,"Yes, Plan needs completing, Plan needs updating",CLA review IRO monitoring info ,,,,
+,Item 1621,Is there an up to date Personal Education Plan?,,,,,,,,,,,,,,,Is there an up to date Personal Education Plan?,"Yes, Plan needs completing, Plan needs updating",CLA review IRO monitoring info ,,,,
+,Item 1622,Is IRO satisfied with current Pathway Plan?,,,,,,,,,,,,,,,Is IRO satisfied with current Pathway Plan?,"Yes, No, Not applicable",CLA review IRO monitoring info ,,,,
+,Item 1623,Is the child / young person attending school?,,,,,,,,,,,,,,,Is the child / young person attending school?,"Yes, No",CLA review IRO monitoring info ,,,,
+,Item 1624,"
+Reason for child not attending school",,,,,,,,,,,,,,,"
+Reason for child not attending school",N/A (Free text entry),CLA review IRO monitoring info ,,,,

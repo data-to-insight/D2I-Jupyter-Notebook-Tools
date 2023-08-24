@@ -1,0 +1,597 @@
+data category,item number,data item,annex a  information captured,903 information captured,croydon text,croydon options,croydon forms,croydon reason for collecton,essex text,essex options,essex forms,essex reason for collection,sutton text,sutton options,sutton forms,sutton reason for collection,camden text,camden options,camden forms,camden reason for collection,were users asked specifically about this item (y/n),did users find it useful?,why was it found useful/not useful?
+Child's details,,,,,In Croydon all child's details are recorded in demographics tabs,,,,,,,,,,,,,,,,,,
+,Item 3,Preferred name,,,Preferred Name,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 12,Address Type,,,Address Type,,Care Panel,,,,,,,,,,,,,,,,
+,Item 65,Child's goals,,,My Goals:,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 66,Future plans (1-5 years),,,Where would I like to be and what I would like to be doing in 1-5 years' time?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 67,Who can help child reach their goals,,,Who will help me?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 68,Pathway plan ID form date completed,,,Date,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 70,Workers view of identity,,,My Workers View - Views,,Pathway Plan (PLAN),,,,,,,,Workers View,,,,,,,,
+,Item 71,Other's view of identity,,,Other people's view - Views,,Pathway Plan (PLAN),,,,,,,,Views of other important people,,,,,,,,
+,Item 72,Child's self description,,,How do you describe yourself?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 80,Child aspirations/things to change,,,What are our aspirations? / What needs to change?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 81,Measure of goals met or changes made,,,How will we know when it has been achieved?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 95,Trafficking risks for child?,,,"Are there any concerns about the young person being trafficked?
+
+Is this young person considered at risk of child sexual exploitation / trafficking* / other personal safety concerns?",Placement Request: 1.Yes/0.No,"Placement Request
+Pathway Plan (PLAN)",,,,,,,,,,,,,,,,
+,Item 96,Details about trafficking or exploitation risks?,,,"Give more details of the exploitation risks including concerns about trafficking if relevant
+
+If so, please describe",,Placement Request,,,,,,,,,,,,,,,,
+,Item 98,Details on child's gang links,,,Give more details,,Placement Request,,,,,,,,,,,,,,,,
+,Item 100,Details on child going missing?,,,Give more details,,Placement Request,,,,,,,,,,,,,,,,
+,Item 101,Are there more risks or vulnerabilities for the child?,,,"Are there any other vulnerabilities, concerns or risks associated with this child/young person?",Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 102,Details for other risks and vulnerabilities?,,,Give more details,,Placement Request,,,,,,,,,,,,,,,,
+,Item 104,What support does the child need to communicate wishes and feelings?,,,What additional support or resource would be required to facilitate this?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 108,Details of release from remand status,,,Conditions of release,,Placement Request,,,,,,,,,,,,,,,,
+,Item 109,Forthcoming remand appointments,,,Are there any forthcoming appointments?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 110,Restrictions as a result of remand,,,Are there any restrictions?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 123,Child has solicitor?,,,Has the child / young person got a solicitor,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 124,Who is the child's solicitor?,,,"if so, whom?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 125,Date for judicial review?,,,Is there a date for a Judicial Review?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 129,Financial pathway plan for before child's 18th birthday?,,,Is this the final Pathway Plan before this Young Person’s 18th Birthday?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 137,Personal Advisor allocated and met with the YP?,Allocated personal advisor,,Has the PA been allocated and met with the YP,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+Relevant Professionals (inc. SW and IRO),,,,,"In Croydon, all details of involved parties are recorded on cases in case files",,,,,,,,,,,,,,,,,,
+,Item 194,KITel,,,Telephone,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 200,Full Driving License,,,Full Driving Licence,Pathway Plan (PLAN): Full Driving Licence,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 201,Home Office Documents,,,Home Office documents,Pathway Plan (PLAN): Home Office documents,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 204,Passport number,,,Passport Number,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 205,National insurance number,,,National Insurance Number,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 208,Child has birth certificate?,,,Do you have a Birth Certificate?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 209,How will child obtain a birth certificate,,,What is the plan to get one?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 224,Which forms have been given to the placement provider/carer?,,,Documents provided to the provider/carer.,"Placement Agreement Form: Documents provided to the provider/carer.
+Placement Agreement Form: Risk Assessment
+Placement Agreement Form: Delegated Authority
+Placement Agreement Form: Care Plan
+Placement Agreement Form: Court Orders
+Placement Agreement Form: Previous LAC Review
+Placement Agreement Form: Pathway Plan
+Placement Agreement Form: Complaints Procedure
+Placement Agreement Form: Health Risk Assessment
+Placement Agreement Form: PCHR (Personal Child Health Record)
+Placement Agreement Form: PEP
+Placement Agreement Form: EHCP
+Placement Agreement Form: Transition Plan (Child's Needs Assessment)
+Placement Agreement Form: S20 Agreement (Signed)
+Placement Agreement Form: Other",Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 225,Specify other forms provided to the provider/carer,,,"If other, please specify",,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 228,Difficulties/trouble in area lived in?,,,Do you experience any difficulty or get into trouble in the area you live in?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 229,Specify difficulties/trouble in area lived in,,,Please Specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 230,Child or other worried about lived in area or child's choices?,,,Are you or anyone that knows you worried about the community you live in or the choices you make?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 231,Specify worried about area lived in or choices,,,Please Specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 234,Actions if child is in difficulty or trouble in the community,,,What will we do if you find yourself in difficulty or trouble in your community?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 236,Measure achievement of aspirations or changes,,,How will we know when it has been achieved?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 237,Actions to achieve aspirations or changes,,,Actions to achieve this,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 238,Who will foster aspirations/change in child's life,,,Who will do this?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 239,When will aspirations/changes be met/made?,,,When?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 240,Aspirations form date,,,Date,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 241,Aspirations form score,,,Score,Pathway Plan (PLAN): 1to10,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 242,Child's view on aspirations,,,My View - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 243,Worker's view on aspirations,,,My Workers View - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 244,Other's view on aspirations,,,Other people's view - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 250,Reason for saving money?,,,Describe the reason for your answer,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 251,Foster carer savings?,,,Are there foster carer savings?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 252,Contacts about savings?,,,Who should be contacted regarding the young person’s savings?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 253,Savings from foster carer  or ISA to be paid to child?,,,Are there any foster carer savings or Junior ISA which need to be paid to the young person?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 254,Details about savings to be given to child?,,,"If yes, please give details?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 255,Child in debt?,,,Are you in debt?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 256,How much debt and to whom?,,,Describe how much and to whom,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 257,Child receives benefits?,,,Are you receiving any benefits?,Pathway Plan (PLAN): YesNoNA,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 258,Details of child's benefits?,,,Provide details,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 261,Date of check of welfare benefits rights?,,,When will a welfare rights benefit check occur?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 262,Education support funding,,,Are you receiving funding to support your education?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 263,Details about education support funding,,,Please specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 266,Child needs help to save money?,,,What will happen if you need help to manage your money?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 280,Date of financial pathway plan form,,,Date,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 282,Child's views on finance plan,,,My View - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 285,Is the child attending university/interviews outside of area of placement and needs financial assistance?,,,Is the young person planning to go to university outside London and so will require assistance towards the costs of (a) attending interviews / open days and (b) vacation accommodation?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 286,Contingency plan if financial support cannot be given to attend university?,,,What would be the contingency plan if any of the above arrangements fall through or cannot be financed?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 288,Source of finances/funds,,,Source,Pathway Plan (PLAN): Source,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 289,Regularity of finance,,,Regularity,Pathway Plan (PLAN): Regularity,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 290,Amount in financial arrangements?,,,Amount,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 291,DWP/financial appointee comments,,,DWP Appointee/Financial Appointeeship - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 292,Setting Up Home Allowance,,,Setting Up Home Allowance,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 293,Higher Education bursary payments,,,Higher Education bursary payments,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 294,Is there a potential for joint funding for the placement,,,Is there potential for joint funding?,Placement Request: Joint Funding,Placement Request,,,,,,,,,,,,,,,,
+,Item 295,Can joint funding be provided for the child's health,,,Health,,"Care Panel
+Placement Request",,,,,,,,,,,,,,,,
+,Item 296,Can join funding be provided for the child's education,,,Education,,"Care Panel
+Placement Request",,,,,,,,,,,,,,,,
+,Item 297,Assistance towards costs of vacation accommodation if required by young person,,,Assistance towards costs of vacation accommodation if required by young person,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 298,Student loan,,,Student loan,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 299,Savings due from foster carer(s),,,Savings due from foster carer(s),,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 300,Junior ISA,,,Junior ISA,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 301,Other financial arrangements,,,Other,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 302,Child's support arrangements,,,Support arrangements,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 303,Landlord/letting agent details,,,Landlord/Letting agency details,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 304,Housing register number,,,Housing Register Number,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 320,Living place form date,,,Date,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+Education/Employment/Training,,,,,In Croydon this can all be recorded in the education section of case files,,,,,,,,,,,,,,,,,,
+,Item 349,Specify worries about EET choices?,,,Please Specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 351,Details of child's educational equipment requirements,,,"If yes, please provide information here",,Placement Request,,,,,,,,,,,,,,,,
+,Item 353,How can changes be made to EET?,,,"What will happen if changes need to be made about your education, training or employment?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 355,Measures for aspirations/change sin EET?,,,How will we know when it has been achieved?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 356,Actions to achieve aspirations/changes in EET?,,,Actions to achieve this,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 357,Who will perform actions to reach aspirations/changes in EET?,,,Who will do this?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 358,When will actions be made to change EET?,,,When?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 359,Date of EET form?,,,Date,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 363,Other's view on EET form,,,Other people's view - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+Health,,,,,In Croydon this can all be recorded in the Health section of the case file,,,,,,,,,,,,,,,,,,
+,Item 378,Child's emotional wellbeing,,,Our Child's / Young Person's Emotional Well-being,,Placement Request,,,,,,,,,,,,,,,,
+,Item 399,Midwife / Health Visitor / Family Nurse name,,,Midwife / Health Visitor / Family Nurse: - Name,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 400,Counsellor / Therapist  Name,,,Counsellor / Therapist - Name,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 401,Hospital services Name,,,Hospital services - Name,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 405,Does child see anyone regularly regarding physical/emotional health?,,,Do you see anyone else regularly regarding your physical or emotional health?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 406,Who does child see regularly regarding physical/emotional health?,,,Please specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 407,"If child has left care, do they have a copy of their health history?",,,"If you've left care, have you had a copy of your health history?",Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 408,"If in care, has child had a health check in the last 12 months?",,,"If you are still in care, have you had a health check in the last 12 months?",Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 409,Placement/care relevant details of child's medical history,,,Provide details of the child/young person's medical history which is significant to their care,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 433,Child's access requirements?,,,Are there any specific access requirements?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 434,Details of child's access requirements,,,Please provide information,,Placement Request,,,,,,,,,,,,,,,,
+,Item 436,Details on medication or medical interventions,,,"If yes, provide the reason for any medication",,Placement Request,,,,,,,,,,,,,,,,
+,Item 437,Child/other worried about physical health?,,,Are you or anyone worried about your physical health at the moment?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 439,Does the child have emotional health problems affecting day-to-day living?,,,Do you have an emotional health problem that affects your day to day living?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 440,Details about emotional health problems affecting day-to-day living?,,,Please give details,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 441,Child/other worried about emotional health?,,,Are you or anyone worried about your emotional health at the moment?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 444,Details on health (medical or mental including self harming risks),,,"Give more details of the health, medical or mental health issues including self-harming risks if relevant",,Placement Request,,,,,,,,,,,,,,,,
+,Item 445,How can changes be made to improve emotional health?,,,"If yes, what might help to make a positive change?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 446,What will the child do in the case of unexpected health problems?,,,What will you do if you have unexpected problems with your health?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 456,Child undergoing age assessment?,,,Is the young person undergoing an Age Assessment?,Pathway Plan (PLAN): Yes/No,"Pathway Plan (PLAN)
+Placement Request",,,,,,,,,,,,,,,,
+,Item 457,Details on child's age assessment,,,Give more details,,Placement Request,,,,,,,,,,,,,,,,
+,Item 458,Child challenging decision of age assessment?,,,Or is the young person challenging the decision of one?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+Contact/friends/relationships,,,,,In Croydon there is a seprate space in the case files for recordning contacts,,,,,,,,,,,,,,,,,,
+,Item 482,Details about child's ability to contact who they want to contact?,,,Please give details,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 485,Contact (Address),,,Address & Postcode,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 486,Contact (Telephone),,,Telephone,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 488,Contact (age),,,Age,,Care Panel,,,,,,,,,,,,,,,,
+,Item 489,Contact  (address),,,Address,,Care Panel,,,,,,,,,,,,,,,,
+,Item 490,Contact (case number),,,Case No,,Care Panel,,,,,,,,,,,,,,,,
+,Item 503,Child/other worried about friendship/relationship choices?,,,Are you or anyone that knows you worried about the choices you make about friendships and relationships?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 507,How can child make positive changes to friendships and relationships?,,,"If yes, what might help to make a positive change?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 508,What can child do if there are difficulties in relationships?,,,What will you do if there are difficulties with your relationships?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 509,Child's relationship/friendship aspirations/changes?,,,What are our aspirations? / What needs to change?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 510,Measure of child's friendship/relationship aspirations/changes?,,,How will we know when it has been achieved?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 511,Actions to achieve friendship/relationship goals?,,,Actions to achieve this,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 512,Who will perform actions to achieve friendship/relationship goals?,,,Who will do this?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 513,When will actions be taken to reach friendship/relationship goals?,,,When?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 514,Date of friendship/relationship form?,,,Date,Pathway Plan (PLAN): 1to10,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 515,Friendship/relationship form score?,,,Score,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 516,Child's views on friendships/relationships,,,My View - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 517,Worker's views on friendships/relationships,,,My Workers View - Views,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 518,Other's views on friendships/relationships,,,Other people's view - Views,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 534,"Child expectations, child will clean and tidy room",,,Maintain a clean and tidy room - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 535,"Child expectations, child will respect household rules",,,Respect household rules - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 536,"Child expectations, child will access education",,,Access education - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 537,"Child expectation, child will follow guidance to maintain a health diet",,,Follow guidance to maintain a healthy diet - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 538,"Child expectations, child will take on board support and advice",,,Take on board support and advice - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 539,"Child expectations, other comments",,,Other - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 540,Comments on expectations of child,,,Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 544,Others with parental responsibility,,,Another family member with PR - Name,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 562,"Parent expectations, parent will attend appointments",,,Attend appointments - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 564,"Parent expectations, other expectations",,,Other - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 565,"Parent expectations, comments",,,Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 566,"SW expectations, SW should visit child at least every 4 weeks",,,Frequency of visits - should be at least every 4 weeks - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 567,"SW expectations, other expectations",,,Other - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 568,"SW expectations, comments",,,Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 569,"SW expectations, SW should visit carer at least every 6 weeks",,,Frequency of visits to carer- should be at least every 6 weeks - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 570,"SW expectations on carer visits, other",,,Other - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 571,Other comments on placement agreement,,,Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 572,Comments on placement rules,,,Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 573,"Placement, coming-in-time comments",,,Coming-in time - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 574,"Placement bedtime, comments",,,Bedtime - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 575,"Placement, jobs in house comments",,,Jobs in the house - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 576,"Placement privacy, comments",,,Privacy - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 577,"Placement smoking, comments",,,Smoking - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 578,"Placement, pocket money comments",,,Pocket money - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 579,"Placement, savings comments",,,Savings (minimum £5 per week) - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 580,"Placement rules/issues, other",,,Any other issues - Comments,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 581,"Placement, special payments needed?",,,Are any special payments needed? (e.g. for clothing or transport),,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 582,Who will organise special payments needed?,,,Who will organise any special payments? (This must be agreed and confirmed by managers),,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 583,Does anyone else need money to do the things they have promised to? (e.g. visit the child/young person),,,Does anyone else need money to do the things they have promised to? (e.g. visit the child/young person),,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 606,Date  Pathway Plan started,,,Started On,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 629,Specify parallel permanency plan,,,Please specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 631,Who will take permanency plan actions?,,,Who?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 632,When will permanency plan actions be made?,,,When?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 633,Which permanency plan do the actions relate to?,,,Which Permanency Plan does this relate to?,Pathway Plan (PLAN): PermPlan,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 634,What is the parallel plan for permanency?,,,What is the parallel plan for permanency for this child/young person?,Pathway Plan (PLAN): What is the parallel plan for permanency for this child/young person?,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 635,What area does the parallel plan address?,,,Area Addressed,Pathway Plan (PLAN): areas addressed,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 636,Plan aspirations/changes?,,,What are our aspirations? / What needs to change?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 637,Measures of plan aspirations/changes?,,,How will we know when it has been achieved?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 638,Actions to achieve plan aspirations/changes?,,,Actions to achieve this,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 639,Who will make actions to meet goals or changes for plan,,,Who will do this?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 640,When will the changes/actions be made by?,,,When?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 641,Child's plan worries?,,,What are we worried about?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 645,Other information relevant to the plan?,,,Other relevant information,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 646,Child's preferred placement option,,,What is the preferred placement option for this child/young person?,Pathway Plan (PLAN): LCS Placement Codes,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 647,"If other placement type is selected, specify",,,"If Other, please specify:",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 648,Evidence in favour of preferred placement type?,,,What is the evidence that supports this choice of placement:,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 649,Where will the child be placed?,,,Where is/will the child/young person be placed?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 650,"Why is the child not in their preferred placement, how will they be moved to their preferred placement?",,,"If the child/young person is not in the preferred placement, please explain why, and outline what actions are being taken to secure a preferred placement:",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 654,Child living arrangements?,,,What are the living arrangements for the child / young person and why have they been chosen?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 655,How has child chosen living arrangements?,,,What are the living arrangements for the child / young person and why have they been chosen?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 656,Child and siblings placed apart?,,,Are siblings being (or have been) placed apart?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 657,Reason for placing siblings apart?,,,What is the reason for this?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 658,How long will current placement last?,,,How long is it expected that this placement will last?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 659,Child's view on placement plan?,,,What are the child(ren)'s / young person(s)'s views about this plan?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 667,Status of other important claims in child's life,,,Other status,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 668,Plans in place for accommodation once child has left care?,,,Are all plans in place for Accommodation once YP has left care?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 669,Panel date for Staying Put,,,If Staying Put please indicate Panel date,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 670,Accommodation plans for independent child,,,If Independent accommodation plans for tenancy start date etc.,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 671,Housing application forms completed and submitted?,,,Have housing application forms been completed and submitted?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 672,Date of submitting housing application?,,,"If so, please give date",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 673,Housing register number?,,,Housing Register no,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 674,Case considered at housing panel?,,,"Has the case been considered at Housing Panel? If so, please give date(s):",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 675,Eligible for SNAP or Landlord Bond Scheme?,,,Is the young person eligible to be put forward for the Landlord Bond Scheme or a SNAP referral?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 676,Details of SNAP or Landlord Bond Scheme,,,"If yes, please give details?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 677,Is assistance being given to find private accommodation?,,,Is the young person being assisted to seek their own privately-rented accommodation?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 678,Other relevant housing information?,,,Other relevant information,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 679,Carer and child signed License Agreement template?,,,Have the foster carer and young person signed copies of the Licence Agreement template?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 680,Proposed arrangement ratified by the Placement Stability Panel?,,,Has the proposed arrangement been ratified by the Placement Stability Panel? Date:,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 681,Timeframe of proposed arrangement?,,,"How long is it proposed that the arrangement will last? , from :…………………………, to : …………………………",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 682,Plan after current plan?,,,What would be the plan subsequently?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 683,Other relevant plan information?,,,Other relevant information,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 684,Child lives with family?,,,Live with family,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 685,Which family does the child live with?,,,"If so, whom?",,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 686,Transition to adult services within All-age Disability Service?,,,Transition to adult services within All-age Disability Service?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 687,Does the child have dependents?,,,Does the young person have any dependants?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 688,Child's desired outcome for dependents,,,Desired Outcome,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 689,Actions to achieve child's desired outcome for independents?,,,Actions to Achieve Outcome,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 690,"Who will take actions for desired outcome for child's dependents, and by when?",,,By whom & when (please give start & end dates),,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 691,What is the contingency plan if desired outcome for child's dependents cannot be made?,,,What would be the contingency plan if any of the above arrangements fall through or cannot be financed?,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 694,Child under 18?,,,Is this child under 18?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 696,Transition Plan,,,Transition Plan,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 704,What action will be taken for a permanency plan?,,,Action,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 705,Who will take action on a permanency plan?,,,Who?,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 706,When will action be taken on a permanency plan?,,,When?,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 707,What permanency plan does this relate to?,,,Which Permanency Plan does this relate to?,CLA Care Plan: Perm Plan,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 716,Which professional will be involved in the plan?,,,Professional,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 717,What agency will take on the plan?,,,Agency,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 718,What is the agency's role in the plan?,,,Agency Role,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 722,What is the agency's telephone number?,,,Telephone Number,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 723,Young Person's Guardians,,,Young Person's Guardians,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 724,What area is the care plan to take place in?,,,Young Person's Safety Mapping,"Upper Norwood
+Norbury
+Thornton Heath
+South Norwood
+West Thornton
+Bensham Manor
+Broad Green
+Woodside
+Waddon
+Fairfield
+Addiscombe
+Ashburton
+Shirley
+Selhurst
+Heathfield
+Croham
+Selsdon & Ballards
+Fieldway
+New Addington
+Purley
+Sanderstead
+Kenley
+Coulsdon West
+Coulsdon East
+Other
+Other AreasUpper Norwood
+Norbury
+Thornton Heath
+South Norwood
+West Thornton
+Bensham Manor
+Broad Green
+Woodside
+Waddon
+Fairfield
+Addiscombe
+Ashburton
+Shirley
+Selhurst
+Heathfield
+Croham
+Selsdon & Ballards
+Fieldway
+New Addington
+Purley
+Sanderstead
+Kenley
+Coulsdon West
+Coulsdon East
+Other
+Other Areas",CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 725,How can the child travel when in care?,,,How do I travel safely?,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 732,Who can the child in care contact?,,,The person I can contact is...,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 733,"The child's contact, if they are in danger",,,Their contact details are...,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 739,Actions to achieve goals of permanency plan?,,,Actions to achieve this,,"CLA Progress Report (Worker)
+Pathway Plan Review - Workers Report",,,,,,,,,,,,,,,,
+,Item 740,Who will perform the actions for the permanency plan goals?,,,Who will do this?,,"CLA Progress Report (Worker)
+Pathway Plan Review - Workers Report",,,,,,,,,,,,,,,,
+,Item 741,When will the actions for the permanency plan goals be taken?,,,When?,,"CLA Progress Report (Worker)
+Pathway Plan Review - Workers Report",,,,,,,,,,,,,,,,
+,Item 742,Comment on the progress of the permanency plan,,,Progress & Comment,,"CLA Progress Report (Worker)
+Pathway Plan Review - Workers Report",,,,,,,,,,,,,,,,
+,Item 745,Is the SW completing the CLA request the assigned social worker?,,,Is this the Allocated Social Worker,CLA Request for Child to be Looked After: 1.Yes/0.No,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 747,Has agreement to seek a placement been given by a panel?,,,Has agreement to seek a placement been given by a panel?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 749,Who is making the placement request,,,Placement requested by,,Placement Request,,,,,,,,,,,,,,,,
+,Item 756,Is the CLA request for urgent placement?,,,Is this an emergency placement?,CLA Request for Child to be Looked After: 1.Yes/0.No,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 768,Is the CLA request for UASC or unaccompanied minor?,,,Unaccompanied minor or asylum seeker?,CLA Request for Child to be Looked After: 1.Yes/0.No,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 774,What type of placement will suit the child?,,,What type of placement do you think would meet our Child's / Young Person's need?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 779,What does the child want from a placement?,,,What does the Child / Young Person want from the placement?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 781,What good things can be taken from previous placements?,,,What is going well for this Child / Young Person that can be built on in the placement (outcomes)?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 782,View of independent officer for placement change?,,,View of the Independent Reviewing Officer to the placement change,,Placement Request,,,,,,,,,,,,,,,,
+,Item 783,Who has granted the placement/change of placement?,,,Who has agreed to the new placement or change of placement?,Placement Request: Panel,Placement Request,,,,,,,,,,,,,,,,
+,Item 789,Do we know where the child's placement will be?,,,Do we already know where the child/young person is going?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 796,Is the placement request for an unregulated setting?,,,Is this request for an unregulated setting?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 797,Has the unregulated placement assessment been completed?,,,Has an Unregulated Setting Placement Assessment been completed?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 798,When was the unregulated placement assessment signed off?,,,Date Unregulated Setting Placement Assessment was signed off by Director?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 799,Placement options appraisal,,,Options Appraisal,,Placement Request,,,,,,,,,,,,,,,,
+,Item 805,Details on other placement request reason,,,Other,,Placement Request,,,,,,,,,,,,,,,,
+,Item 833,Name of manager agreeing to matching,,,Name of Manager who agreed matching,,Placement Request,,,,,,,,,,,,,,,,
+,Item 837,Why did the previously in care child leave care?,,,If yes please indicate reason for previous discharge,CLA Request for Child to be Looked After: If yes please indicate reason for previous discharge,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 839,"In which LA was adoption, SGO or RO granted?",,,"What local authority was the adoption, SGO or RO granted",,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 848,Other information to help identify a child's ideal placement?,,,Any other information which would help us to identify the best placement for this child/young person,,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 851,Who is the head of the CLA authorisation service?,,,Please select which Head of service,,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 852,Name of CLA request panel chair/approver?,,,Name of Approver/Panel Chair,,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 853,Details of CLA request,,,Details of Agreement,,CLA Request for Child to be Looked After,,,,,,,,,,,,,,,,
+,Item 863,Comments on child's transportation needs,,,Comments,,Placement Request,,,,,,,,,,,,,,,,
+,Item 864,Details of review agreement,,,Details of Care Panel Agreement,,Placement Request,,,,,,,,,,,,,,,,
+,Item 865,Date of review decision,,,Care Panel Decision Date,,Placement Request,,,,,,,,,,,,,,,,
+,Item 868,Placement agency,,,Agency,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 870,Has the high cost placement request been completed,,,High Cost Placement Review Complete,Placement Request: High Cost Placement Review Complete,Placement Request,,,,,,,,,,,,,,,,
+,Item 872,Placement Request: Placement Band,,,Placement Type,Placement Request: Placement Band,Placement Request,,,,,,,,,,,,,,,,
+,Item 873,Placement Request: Banding,,,Band,Placement Request: Banding,Placement Request,,,,,,,,,,,,,,,,
+,Item 880,Placement request chair comments,,,Chair Comments,,Placement Request,,,,,,,,,,,,,,,,
+,Item 881,Placement request sign off name,,,Signed Off By,,Placement Request,,,,,,,,,,,,,,,,
+,Item 884,Head of Service agreement for placement?,,,Has agreement to seek a placement been given by a HoS?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 885,Which head of service agreed to placement?,,,Which Head of Service gave agreement?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 886,Details of head of service agreement,,,Details of Head of Service Agreement,,Placement Request,,,,,,,,,,,,,,,,
+,Item 887,Head of service decision date,,,HoS Decision Date,,Placement Request,,,,,,,,,,,,,,,,
+,Item 888,Is the placement request accurate and relevant?,,,Have you reviewed this request and confirmed the information provided is accurate and relevant?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 889,Manager authorising request,,,Authorising Manager,,Placement Request,,,,,,,,,,,,,,,,
+,Item 891,Placement lead,,,Placement Lead,,Placement Request,,,,,,,,,,,,,,,,
+,Item 905,Does the LA have fostering vacancies available?,,,Were there Croydon Fostering vacancies available?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 906,Why were the LA's fostering vacancies unused?,,,"If yes, why are they not being used?","Unable to get hold of the carer
+Carer does not have the skill set to meet the needs of the child
+Placement requested out of borough
+Health Reasons
+Only accept planned placements
+Carer is approved for a specific age range, however, has an age preference
+Room not ready (e.g. disrepair)
+Not an ethnic match
+Carer has commitments (an issue for emergency placements)
+Carers are on a break for various reasons e.g. bereavement, health, family
+Carers are downsizing
+No locks on internal doors
+No vacancies
+Other
+
+",Placement Request,,,,,,,,,,,,,,,,
+,Item 907,Name of manager who agreed to external placement,,,Name of Manager who agreed to go external,,Placement Request,,,,,,,,,,,,,,,,
+,Item 908,Date external placement was agreed to,,,Date,,Placement Request,,,,,,,,,,,,,,,,
+,Item 909,Is the placement on or off framework,,,Is this on or off framework?,Placement Request: Is this On or Off Framework?,Placement Request,,,,,,,,,,,,,,,,
+,Item 910,Why is the placement off framework,,,"If Off Framework, reasons why?","No positive responses on Framework
+Unable to meet location requested
+Unable to meet the needs of child/YP
+Unable to match
+No vacancies
+Other",Placement Request,,,,,,,,,,,,,,,,
+,Item 911,Is the placement a SPOT purchase?,,,Is this a SPOT purchase?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 912,Which manager agreed to an off framework placement,,,Name of Manager who agreed to go off framework,,Placement Request,,,,,,,,,,,,,,,,
+,Item 913,Date of off framework placement agreement,,,Date,,Placement Request,,,,,,,,,,,,,,,,
+,Item 917,Placement location boundary,,,Placement Location,Placement Request: Placement Boundary,Placement Request,,,,,,,,,,,,,,,,
+,Item 922,Has the LA of placement been consulted,,,Have you consulted with the relevant Local Authority?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 923,What was the out of LA placement consultation outcome,,,What was the outcome of the conversation?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 924,What have you not spoken to the out of LA placement LA,,,Why have you not spoken to the relevant Local Authority?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 925,What will happen if the child goes missing?,,,"Should the child go missing, what are the arrangements for the return home interview?",,Placement Request,,,,,,,,,,,,,,,,
+,Item 926,Is the placement unregulated/uninspected?,,,Is this an unregulated or uninspected placement?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 927,What type of placement is it?,,Placement type,What type of placement is it?,Placement Request: What type of placement is it?,Placement Request,,,,,,,,,,,,,,,,
+,Item 929,Has the LA seen the compliance documents?,,,Have we seen compliance documents?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 930,When will the LA see the compliance documents?,,,When will we see these?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 931,Is the LA satisfied with the compliance documents,,,Are we satisfied with these or are there concerns,Placement Request: Are we satisfied with these or are there concerns,Placement Request,,,,,,,,,,,,,,,,
+,Item 932,Concerns about placement compliance documents,,,Comments,,Placement Request,,,,,,,,,,,,,,,,
+,Item 934,Date of placement visit,,,Date of visit,,Placement Request,,,,,,,,,,,,,,,,
+,Item 935,Date of scheduled placement visit,,,Date of scheduled visit,,Placement Request,,,,,,,,,,,,,,,,
+,Item 940,Placement provider invoice address,,,Provider Invoice Address,,Placement Request,,,,,,,,,,,,,,,,
+,Item 952,Foster placement email,,,Placement Email Address,,Placement Request,,,,,,,,,,,,,,,,
+,Item 955,Foster placement service level,,,Service Level,,Placement Request,,,,,,,,,,,,,,,,
+,Item 957,Foster placement proposed start date,,,Proposed Start Date,,Placement Request,,,,,,,,,,,,,,,,
+,Item 970,Is the foster placement jointly funded,,,Is this jointly funded?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 971,Who is providing joint funding for foster placement,,,Who is jointly funding this?,Placement Request: Joint Funders,Placement Request,,,,,,,,,,,,,,,,
+,Item 972,Is there joint funding for adult social care,,,Adult's Social Care,Placement Request: Adult's Social Care,Placement Request,,,,,,,,,,,,,,,,
+,Item 973,Is there joint funding for children's social care,,,Children's Social Care,Placement Request: Children's Social Care,Placement Request,,,,,,,,,,,,,,,,
+,Item 974,Is there joint funding for the clinical commissioning group,,,Clinical Commissioning Group,Placement Request: Clinical Commissioning Group,Placement Request,,,,,,,,,,,,,,,,
+,Item 975,Is there joint funding for education,,,Education,Placement Request: Education,Placement Request,,,,,,,,,,,,,,,,
+,Item 976,Funding amounts per funding stream,,,Funding Commitment,,Placement Request,,,,,,,,,,,,,,,,
+,Item 977,Childrens social care funding amount,,,CSC - Funding Commitment,,Placement Request,,,,,,,,,,,,,,,,
+,Item 978,Clinical commissioning group's funding amount,,,CCG - Funding Commitment,,Placement Request,,,,,,,,,,,,,,,,
+,Item 979,Education funding amount,,,Education - Funding Commitment,,Placement Request,,,,,,,,,,,,,,,,
+,Item 980,Adult social care funding amount,,,Adults Social Care - Funding Commitment,,Placement Request,,,,,,,,,,,,,,,,
+,Item 981,Comments on funding,,,Comments,,Placement Request,,,,,,,,,,,,,,,,
+,Item 982,Placement supervisor comments,,,Oversight and Comment of Placement Team Supervisor/Manager,,Placement Request,,,,,,,,,,,,,,,,
+,Item 983,Placement authoriser name,,,Authoriser,,Placement Request,,,,,,,,,,,,,,,,
+,Item 984,Has senior manager agreed to allow a placement?,,,Has agreement to seek a placement been given by a Duty EDT Senior Manager?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 985,Name of senior manger agreeing to placement request,,,Name of EDT Duty Senior Manager who has given agreement?,,Placement Request,,,,,,,,,,,,,,,,
+,Item 986,Details of placement agreement,,,Details of Agreement,,Placement Request,,,,,,,,,,,,,,,,
+,Item 987,Decision of senior manger on placement request date,,,EDT Duty Senior Manager Decision Date,,Placement Request,,,,,,,,,,,,,,,,
+,Item 988,Has the proposed placement been agreed to?,,,The Proposed Placement is agreed,Placement Request: 1.Yes/0.No,Placement Request,,,,,,,,,,,,,,,,
+,Item 989,Why was the placement disagreed to?,,,Reasons for disagreeing,,Placement Request,,,,,,,,,,,,,,,,
+,Item 990,Placement authoriser name?,,,Authoriser,,Placement Request,,,,,,,,,,,,,,,,
+,Item 993,Child's CLA status,,,CLA Legal Status,,Placement Request,,,,,,,,,,,,,,,,
+,Item 1029,What help does child need with immigration,,,Please specify,,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 1030,Referred to Asylum Support Services?,,,Referral to National Asylum Support Service?,Pathway Plan (PLAN): Yes/No,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 1031,Position of asylum claim?,,,What is the current position of the child/young person's asylum claim?,Pathway Plan (PLAN): What is the current position of the child/young person's asylum claim?,Pathway Plan (PLAN),,,,,,,,,,,,,,,,
+,Item 1034,When was the latest early help care plan?,,,Date of latest EHCP,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1044,CLA review as single or multiple sessions?,,,Was the CLA Review carried out as a single meeting or series of meetings?,CLA Review - Record of Decisions: Meeting Parts,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1046,CLA review due date?,,,CLA Review Due Date,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1083,Consultation paper completed?,,,Consultation Paper completed?,CLA Pathway Review Outcomes: 1.Yes/0.No,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1086,How many parents are involved with the child?,,,How many parents are involved with this child?,CLA Pathway Review Outcomes: Number of parents,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1087,"If no parents are involved with the child, why?",,,"If no parents involved, what is the reason for this?",,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1088,What are the parent's views on the review?,,,Parent(s)’ views :,,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1092,Is the parent consultation paper completed?,,,Consultation Paper completed?,CLA Pathway Review Outcomes: 1.Yes/0.No,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1093,What are the carer's views on the review?,,,Carer’s views :,,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1094,Was the carer consultation review completed?,,,Consultation Paper completed?,CLA Pathway Review Outcomes: 1.Yes/0.No,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1095,What are the chair's comments on the CLA plan?,,,Chair’s comments on plan,,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1100,Date care panel agreed to a placement,,,Date Care Panel Agreed Placement,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1101,Date current placement started,,,Date current Placement started,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1102,Why is the child having a care panel?,,,Reason for coming to panel,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1103,"Why is a panel needed, what has been done to help find suitable care for the child's needs?",,,"Please give details of reasons for presenting this case to panel, attempts that have been made to find an alternative to care and what resource would meet this Child / Young Person's needs",,Care Panel,,,,,,,,,,,,,,,,
+,Item 1106,What is the rehabilitation plan for the child/placement?,,,What is your rehabilitation plan?,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1107,What is your alternative permanency plan?,,,What is your alternative permanency plan?,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1109,Does the service manager know a child's case is going to a care panel?,,,Is the Service Manager aware of the Child/Young Person's case is going to Care Panel? ,Care Panel: Yes No,Care Panel,,,,,,,,,,,,,,,,
+,Item 1121,View of the independent reviewing officer,,,independent reviewing officer view,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1122,Care panel (Outcome),,,Outcome of panel,"Placement Change
+Edge of Care
+Enter Care
+Enter Care - Remanded in Local Authority Care
+Long Term Fostering IFA financial approval
+One off financial support to permanence
+Housing Costs
+Staying Put
+Post 18 Placement Extension
+Residential Provision / Distant Placement Review Complete
+Retainer
+",Care Panel,,,,,,,,,,,,,,,,
+,Item 1123,Has a semi independent provision review been completed?,,,Semi Independent Provision Review Complete,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1124,What type of placement type will the child be placed in,,Placement type,Placement Type,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1125,Care panel outcome (band of care),,,Band,Care Panel: Banding,Care Panel,,,,,,,,,,,,,,,,
+,Item 1126,Additional cost to care plan?,,,Item (Service),,Care Panel,,,,,,,,,,,,,,,,
+,Item 1127,Maximum cost of care plan?,,,Cost (maximum),,Care Panel,,,,,,,,,,,,,,,,
+,Item 1128,Can the child's placement be supported with joint funding?,,,Is there potential for joint funding?,,Care Panel,,,,,,,,,,,,,,,,
+,Item 1129,Name of person completing plan,,,Plan completed by:,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1130,Does the child have any already open plans?,,,Does this child / young person have any other relevant open plans?,CLA Care Plan: Other Plans,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1131,"Is this an education, and health care plan?",,,"Education, Health & Care Plan", ,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1132,Is this a child protection plan?,,,Child Protection Plan,CLA Care Plan: Child Protection Plan,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1133,Is this another type of plan?,,,Other,CLA Care Plan: Other,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1135,When was the last 'other' plan?,,,Date of latest Other Plan,,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1137,Does the child need a contextual safeguarding plan?,,,Does the Child/YP need a Contextual Safeguarding Plan?,CLA Care Plan: Yes/No,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1139,Do the child's contact arrangements need to change?,,,Are there any changes required in the contact arrangements for the child/young person?,CLA Care Plan: 1.Yes/0.No,CLA Care Plan,,,,,,,,,,,,,,,,
+,Item 1145,Did the child help to plan the CLA review?,,,Did you the Child/Young Person contribute to the planning of the review?,CLA Review - Record of Decisions: Yes/No/NA,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1147,Did the child attend the review meeting?,,,Did the child/young person attend the review meeting?,CLA Review - Record of Decisions: 1.Yes/0.No,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1148,Did the CLA review meeting have a co-chair?,,,Was the meeting co-chaired?,CLA Review - Record of Decisions: 1.Yes/0.No,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1149,Child's participation code,,Method of participation in each review,Please enter the child/young persons participation code,CLA Review - Record of Decisions: Meeting Participation,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1150,Has a parent consultation paper been completed?,,,Consultation Paper completed?,CLA Review - Record of Decisions: 1.Yes/0.No,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1151,What are the child/young person's feelings?,,,Child / young person’s wishes and feelings :,,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1152,How many parents are involved with the child?,,,How many parents are involved with this child?,CLA Review - Record of Decisions: Number of parents,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1153,"If no parents are involved with the child, why?",,,"If no parents involved, what is the reason for this?",,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1155,Parents participation in CLA,,,Parent participation,CLA Review - Record of Decisions: Parent Participation,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1156,Has a carer consultation paper been completed?,,,Consultation Paper completed?,CLA Review - Record of Decisions: 1.Yes/0.No,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1158,Has a chair consultation paper been completed?,,,Consultation Paper completed?,CLA Review - Record of Decisions: 1.Yes/0.No,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1159,Chair comments on CLA plan,,,Chair’s comments on plan,,CLA Review - Record of Decisions,,,,,,,,,,,,,,,,
+,Item 1161,Is this a subsequent CLA review?,,,Is this a second or subsequent review?,CLA Review - Record of Decisions: Yes/No,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1162,Did the independent reviewing officer make a recommendation at this review about permanence?,,,IRO to include a recommendation at this review about permanence,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1163,CLA Review date,,,Review Date,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1164,CLA Review decision,,,"Decision
+Outcome",,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1165,Person acting on CLA decision,,,Person,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1166,Timeframe to act on CLA decision,,,Timeframe,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1167,Child's legal status after CLA decision,,,Status,CLA Review - Record of Decisions: Status,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1170,Record of CLA decisions date,,,CLA Review - Record of Decisions - Completion Date,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1178,Does the child or a person in their life think the child needs an advocate for a CLA review?,,,Does the young person or anyone in their life think that an advocate would be helpful?,CLA Review - Record of Decisions: 1.Yes/0.No,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1180,Has a referral been made since the CLA review?,,,Has a referral been made?,CLA Review - Record of Decisions: 1.Yes/0.No,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1181,Date of CLA review referral,,,Date of referral,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1184,What is the young person's view on the referral?,,,What is the young person's view?,CLA Pathway Review Outcomes: Interest,CLA Pathway Review Outcomes,,,,,,,,,,,,,,,,
+,Item 1185,Is the child happy with their independent visitor's input?,,,Is the child/young person happy with their IV input?,CLA Review - Record of Decisions: 1.Yes/0.No,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1191,Has the child previously been adopted or left care?,,,Has the child / young person previously been adopted or left care for special guardianship or residence order?,CLA Review - Record of Decisions: Has the child / young person previously been adopted or left care for special guardianship or residence order?,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1192,Specify when the child has previously left care?,,,"If so, please specify","CLA Review - Record of Decisions: If so, please specify","CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1193,Was feedback received on the review?,,,Was feedback received?,CLA Review - Record of Decisions: 1.Yes/0.No,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Item 1194,What feedback was given on the review?,,,Feedback Received,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,,,,,,,,,,,
+,Iterm 1244,What is the impact of the CLA plan on the child?,,,What is the impact on child/young person?,,CLA Progress Report (Worker),,,,,,,,,,,,,,,,
+,Iterm 1306,Which permanency plan does this action relate to?,,,Which Permanency Plan does this relate to?,CLA Progress Report (Worker): PP,CLA Progress Report (Worker),,,,,,,,,,,,,,,,
+,Iterm 1307,What progress has been made on the permanency plan?,,,Progress,,CLA Progress Report (Worker),,,,,,,,,,,,,,,,
+,Iterm 1308,What area should the permanency plan address?,,,Area Addressed,CLA Progress Report (Worker): Areas of Need,CLA Progress Report (Worker),,,,,,,,,,,,,,,,
+,Iterm 1309,"What are the aspirations for the permanency plan, what should it address?",,,What are our aspirations? / What needs to change?,,CLA Progress Report (Worker),,,,,,,,,,,,,,,,
+,Iterm 1310,Measures for goals of permanency plan?,,,How will we know when it has been achieved?,,CLA Progress Report (Worker),,,,,,,,,,,,,,,,
+,Item 1311,Date CLA referral was received,,,Date Referral Received,ReferralDate,Letter to Child / Young Person (CLA Review),,,,,,,,,,,,,,,,
+,Item 1312,Date of last meeting with child,,,Last Review Date,MeetLastDate,Letter to Child / Young Person (CLA Review),,,,,,,,,,,,,,,,
+,Item 1313,Date of planned review,,,Review Planned Date,MeetStartDate,Letter to Child / Young Person (CLA Review),,,,,,,,,,,,,,,,
+,Item 1314,Date next meeting is due,,,Review Due Date,MeetDueDate,Letter to Child / Young Person (CLA Review),,,,,,,,,,,,,,,,
+,Item 1317,Date plan form was completed,,,Review Minutes Completed,FormEndDate,Letter to Child / Young Person (CLA Review),,,,,,,,,,,,,,,,
+,Item 1325,CLA letter to child,,,Summary,LACSUMMARY,Letter to Child / Young Person (CLA Review),,,,,,,,,,,,,,,,
+,Item 1348,SW completing report,,,Social Worker Completing the Report,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1349,Report completed end date,,,Review Report Completed,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1350,SW's view on what is going well with the pathway plan,,,What is working well?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1351,SW's view on what to be worried about with the pathway plan,,,What are we worried about?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1352,SW's view on the impact of the pathway plan on the child ,,,What is the impact on the young person?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1353,SW's view on grey areas in the pathway plan?,,,Grey areas - areas to explore further?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1354, SW's view on other important pathway plan details,,,Other relevant information,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1355, SW's assessment and analysis of the pathway plan,,,Assessment & Analysis,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1356,Which permanency plans do these actions relate to?,,,Which Permanency Plan does this relate to?,Pathway Plan Review - Workers Report: PP,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1357,SW's view on aspirations/changes for the child's identification?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1358,SW's views on measures of changes  for the child's identification?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1359,Actions to achieve changes  for the child's identification?,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1360,Who will perform actions  for the child's identification?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1361,When will the actions be made to make changes  for the child's identification?,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1362,Progress and comment on actions being made  for the child's identification,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1363,What are the SW's aspirations/goals for the child's finances?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1364,Measure's for SW's goals for the child's finances?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1365,Actions to achieve SW's finance goals for the child,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1366,Who will perform actions to achieve SW's goals for child's finances?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1367,When will the actions be taken to achieve SW's goals for child's finances,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1368,Comments and progress towards SW's goals for child's finances,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1369,What are the SW's aspirations/goals for the child's accommodation?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1370,Measures for SW's goals for the child's accommodation?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1371,Actions to achieve SW's accommodation goals for the child,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1372,Who will perform actions to achieve SW's goals for child's accommodation?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1373,When will the actions be taken to achieve SW's goals for child's accommodation?,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1374,Comments and progress towards SW's goals for child's accomodation,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1375,What are the SW's aspirations/goals for the child's education?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1376,Measures for SW's goals for the child's education?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1377,Actions to achieve SW's education goals for the child,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1378,Who will perform actions to achieve SW's goals for child's education?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1379,When will the actions be taken to achieve SW's goals for child's education?,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1380,Comments and progress towards SW's goals for child's education,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1381,What are the SW's aspirations/goals for the child's health?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1382,Measures for SW's goals for the child's health?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1383,Actions to achieve SW's health goals for the child?,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1384,Who will perform actions to achieve SW's goals for child's health?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1385,When will the actions be taken to achieve SW's goals for child's health?,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1386,Comments and progress towards SW's goals for child's health,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1387,What are the SW's aspirations/goals for the child's family?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1388,Measures for SW's goals for the child's family?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1389,Actions to achieve SW's family goals for the child?,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1390,Who will perform actions to achieve SW's goals for child's family?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1391,When will the actions be taken to achieve SW's goals for child's family?,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1392,Comments and progress towards SW's goals for child's family,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1393,What are the SW's aspirations/goals for the child's skills?,,,What are our aspirations? / What needs to change?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1394,Measures for SW's goals for the child's skills?,,,How will we know when it has been achieved?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1395,Actions to achieve SW's skill goals for the child?,,,Actions to achieve this,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1396,Who will perform actions to achieve SW's goals for child's skills?,,,Who will do this?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1397,When will the actions be taken to achieve SW's goals for child's skills?,,,When?,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1398,Comments and progress towards SW's goals for child's skills,,,Progress & Comment,,Pathway Plan Review - Workers Report,,,,,,,,,,,,,,,,
+,Item 1399,Date of placement agreement meeting,,,Date of Agreement meeting,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1400,Who can arrange a school/college place for a child?,,,"If the child/young person is not in school/college, who will liaise to arrange a place?",,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1401,How will the child/young person get to their place of education?,,,How will the child/young person get to school/college?,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1402,Details of young person's views on the plan,,,Young person's views - Details,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1404,Carer's views on the plan,,,Carer's views - Details,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1405,Plan supervising social worker name,,,Supervising Social Worker - Name,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1406,Date agreed with person with parental responsibility,,,Parent/Person with PR - Date,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1407,Date agreed with other family members with parental responsibility,,,Another family member with PR - Date,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1408,Date agreed with carer/key worker,,,Carer / Keyworker - Date,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1409,Date agreed with allocated social worker,,,Allocated Social Worker - Date,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1410,Date agreed with Supervising social worker,,,Supervising Social Worker - Date,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1411,Date agreed with other relevant parties,,,Other - Date,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1428,Signature of supervising social worker,,,Supervising Social Worker - Signature,,Placement Agreement Form,,,,,,,,,,,,,,,,
+,Item 1429,Signature of other relevant parties,,,Other - Signature,,Placement Agreement Form,,,,,,,,,,,,,,,,
+Visit Recording,,,,,In Croydon visit details are seprately recorded in Case Notes,,,,,,,,,,,,,,,,,,
+Delegated Authority,,,,,In Croydon this is done as a seprate document rather than a form as part of the CLA process,,,,,,,,,,,,,,,,,,
+IRO review of CLA specific,,,,,In Croydon these details are filled in in a seprate form 'Midway Review' used by IROs,,,,,,,,,,,,,,,,,,

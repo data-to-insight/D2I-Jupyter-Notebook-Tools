@@ -1,0 +1,448 @@
+data category,item number,data item,annex a  information captured,903 information captured,croydon text,croydon options,croydon forms,croydon reason for collecton,essex text,essex options,essex forms,essex reason for collection,sutton text,sutton options,sutton forms,sutton reason for collection,camden text,camden options,camden forms,camden reason for collection,were users asked specifically about this item (y/n),did users find it useful?,why was it found useful/not useful?
+,Item 5,Expected DOB,,,,,,,,,,,Date of Birth/Expected Date of Delivery,,LAC Review Referral,,,,,,,,
+,Item 7,Gender Identity,,,,,,,,,,,Gender Identity,Birth gender/ Non-Binary/ Trans Female/ Trans Male,"My Pathway Plan
+All About Me Review
+Summary of All About Me Review",,,,,,,,
+,Item 13,Is the address confidential?,,,,,,,,,,,Is the address of the young person confidential?,,LAC Review Referral,,,,,,,,
+,Item 18,Most recent non-CLA legal status,,,,,,,,,,,Most recent non-CLA legal status,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 19,Status of child's current case,,,,,,,,,,,Case Status,"Child Looked After
+Leaving care",CLA/LCT Case Supervision Record,,,,,,,,
+,Item 24,Diversity considerations,,,,,,,,,,,Diversity considerations,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 37,Independent Review Officer Report,,,,,,,,,,,IRO Report,,Summary of All About Me Review,,,,,,,,
+,Item 49,Is the child keeping safe/how can they keep safe?,,,,,,,,,,,Keeping safe,,"Summary of All About Me Review
+All About Me Review and Care Plan",,,,,,,,
+,Item 50,How does the child feel about when they see their family?,,,,,,,,,,,When you see your family how is this going,,Summary of All About Me Review,,,,,,,,
+,Item 51,Understanding of life story,,,,,,,,,,,Do you understand your life story so far?,,My Pathway Plan,,,,,,,,
+,Item 52,What life story work has been done,,,,,,,,,,,What life story work has been done since your last pathway plan?,,My Pathway Plan,,,,,,,,
+,Item 53,"If no, when will life story work be done?",,,,,,,,,,,"If none, when and what will be done?",,My Pathway Plan,,,,,,,,
+,Item 54,Would the child like a mentor?,,,,,,,,,,,"Would you like an advocate, independent visitor or mentor?",,Summary of All About Me Review,,,,,,,,
+,Item 55,Independent Review Officer summary of getting to know child review,,,,,,,,,,,IRO summary of review,,Summary of All About Me Review,,,,,,,,
+,Item 60,"If action has not been made to meet the decision from the last review, what further action is needed?",,,,,,,,,,,"If no, why not and what further action is required?",,Summary of All About Me Review,,,,,,,,
+,Item 61,Outcome required from decision made in the getting to know the child meeting,,,,,,,,,,,Outcome required,,Summary of All About Me Review,,,,,,,,
+,Item 64,What is the venue for the next getting to know the child meeting?,,,,,,,,,,,Venue,,Summary of All About Me Review,,,,,,,,
+,Item 69,Update (identity),,,,,,,,,,,Update,,My Pathway Plan,,,,,,,,
+,Item 74,Sign off from meeting,,,,,,,,,,,Sign off,,Summary of All About Me Review,,,,,,,,
+,Item 75,Action taken from the getting to know the child meeting,,,,,,,,,,,Action taken,,Summary of All About Me Review,,,,,,,,
+,Item 76,Next action from the getting to know the child meeting,,,,,,,,,,,Next action,"Child or young person no longer looked after
+Develop Path way Plan
+IRO mid point review
+Legal case discussion
+Preparing for adult hood
+Turning 18yrs",Summary of All About Me Review,,,,,,,,
+,Item 77,Priority of actions from getting to know the child meeting,,,,,,,,,,,Priority,"Urgent
+Normal
+Low",Summary of All About Me Review,,,,,,,,
+,Item 78,Case Supervision date of supervision,,,,,,,,,,,Date of Supervision,,CLA/LCT Case Supervision Record,,,,,,,,
+,Item 79,Child's knowledge of their rights,,,,,,,,,,,My rights,,All About Me Review and Care Plan,,,,,,,,
+,Item 85,Feedback for the LA?,,,,,,,,,,,Do you have any feedback for Sutton?,,My Pathway Plan,,,,,,,,
+,Item 86,Level of consent given by child,,,,,,,,,,,Level of Consent given,Full/Limited/Unable to give consent/Best interest decision required,My Pathway Plan,,,,,,,,
+,Item 87,Details of limited consent,,,,,,,,,,,Details of Limited Consent,,My Pathway Plan,,,,,,,,
+,Item 88,Details of MCA/Best Interest Decision requirement,,,,,,,,,,,Details of MCA/Best Interest Decision requirement,,My Pathway Plan,,,,,,,,
+,Item 90,Risks from others,,,,,,,,,,,Risks from others,"Risk Details
+Risk Indicators
+Reducing the risk",Placement Plan & Delegated Authority,,,,,,,,
+,Item 91,Risks to others,,,,,,,,,,,Risks to others,"Risk Details
+Risk Indicators
+Reducing the risk",Placement Plan & Delegated Authority,,,,,,,,
+,Item 113,Important dates: Type of event and date,,,,,,,,,,,"Type of event, assessment, meeting, etc, Date",,CLA/LCT Case Supervision Record,,,,,,,,
+,Item 152,SW - ATM,,,,,,,,,,,ATM,,LAC Review Referral,,,,,,,,
+,Item 156,Supervising Social Worker - Email,,,,,,,,,,,Email address,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 187,Other professional(s),,,,,,,,,,,Other Professional(s),"Designation
+Name
+Agency
+Telephone Numbers",,,,,,,,,
+,Item 210,Certificates,,,,,,,,,,,Do you have any Certificates?,,My Pathway Plan,,,,,,,,
+,Item 219,Does the child have a care plan,,,,,,,,,,,My Care Plan (17 or under),,My Pathway Plan,,,,,,,,
+,Item 220,CV,,,,,,,,,,,Do you have a Curriculum Vitae/Resume.,,My Pathway Plan,,,,,,,,
+,Item 223,Does LA hold copies of important documents,,,,,,,,,,,"If yes, is a copy held by Sutton?",Asked for every important document collected,My Pathway Plan,,,,,,,,
+,Item 232,Child's worries (general),,,,,,,,,,,Any worries or things I need help with?,,All About Me Review and Care Plan,,,,,,,,
+,Item 336,Name of LA responsible for school,,,,,,,,,,,Name of responsible LA,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 341,"What type of schooling does the child require (e.g. SEN, mainstream, PRU)",,,,,,,,,,,Type of provision,Mainstream/SEN/Pupil Referral Unit,Placement Plan & Delegated Authority,,,,,,,,
+,Item 346,Details of educational support needs,,,,,,,,,,,Please list additional educational support,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 347,Child's after school activities,,,,,,,,,,,After school activities,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 369,Care arrangements during holidays and absence,,,,,,,,,,,Detail what the care arrangements for the young person will be during school closures (including holidays) and periods of absence due to sickness or exclusion,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 370,Who will respond to communications from the school?,,,,,,,,,,,"Who will receive and respond to communications and reports from the school/establishment? Who will information be shared with, as appropriate, and how?",,Placement Plan & Delegated Authority,,,,,,,,
+,Item 371,Who will attend school events such as parents evenings?,,,,,,,,,,,"Who will attend events, parent consultations, PEP meetings, parents' evenings, unplanned meetings re incidents/issues? Who will information be shared with, as appropriate, and how?",,Placement Plan & Delegated Authority,,,,,,,,
+,Item 372,Who will sign the home/school agreement whilst the child is in placement?,,,,,,,,,,,Who will sign the home/school agreement while the child/young person is in placement?,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 373,Circumstances under which the carer can give approval for the child to take part in school trips,,,,,,,,,,,Circumstances under which the carer can give approval for the child/young person to take part in school trips,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 374,Circumstances under which the carer should obtain in advance the responsible authority's approval for the child/young person to take part in school trips?,,,,,,,,,,,Circumstances under which the carer should obtain in advance the responsible authority's approval for the child/young person to take part in school trips?,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 379,Child special needs,,,,,,,,,,,"Child special needs, including communication",,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 398,Last Optician Visit,,,,,,,,,,,"Date of most recent Optician appointment
+Optician check",,"SW Assessment for Care Plan and LAC Report
+All About Me Review and Care Plan",,,,,,,,
+,Item 422,Sexual health,,,,,,,,,,,Sexual health,,My Pathway plan,,,,,,,,
+,Item 463,Medical Check Date,,,,,,,,,,,"Medical Check Date
+Health assessment",,"Placement Record
+All About Me Review and Care Plan",,,,,,,,
+,Item 471,Relationship (other children in placement),,,,,,,,,,,With other children in placement,,Placement Referral Request,,,,,,,,
+,Item 472,Relationship (other pupils/students),,,,,,,,,,,With other pupils/students,,Placement Referral Request,,,,,,,,
+,Item 473,Relationship (parents),,,,,,,,,,,With Parents,,Placement Referral Request,,,,,,,,
+,Item 474,Relationship (other adults in family),,,,,,,,,,,With other adults in the family,,Placement Referral Request,,,,,,,,
+,Item 475,Relationship (carers),,,,,,,,,,,With carers,,Placement Referral Request,,,,,,,,
+,Item 476,Relationship (teachers),,,,,,,,,,,With teachers,,Placement Referral Request,,,,,,,,
+,Item 477,Relationship (social worker),,,,,,,,,,,With Social Worker,,Placement Referral Request,,,,,,,,
+,Item 478,Relationship (other professionals),,,,,,,,,,,With other professionals,,Placement Referral Request,,,,,,,,
+,Item 479,Relationship (any significant others),,,,,,,,,,,With any significant others,,Placement Referral Request,,,,,,,,
+,Item 497,Contact (Supervisor),,,,,,,,,,,Supervisor,,"Placement Referral Request
+SW Assessment Report and Care plan for LAC Review",,,,,,,,
+,Item 500,Contact risks and contingencies,,,,,,,,,,,Risks and Contingencies,"Name
+Relationship
+Frequency and Type
+Type and venue
+Transport","SW Assessment Report for Care Plan and LAC Review
+Placement Plan & Delegated Authority",,,,,,,,
+,Item 502,Details of friend/family placement connections and placement details,,,,,,,,,,,"If yes, give details of the Family and Friends connections and placement details",,Placement Referral Request,,,,,,,,
+,Item 505,Child's Family and Social Presentation,,,,,,,,,,,Family and Social Presentation,,SW Assessment Report and Care Plan for LAC Report,,,,,,,,
+,Item 528,In what circumstances should the social worker be consulted by the carer about an overnight stay or sleepover?,,,,,,,,,,,"The carer can give approval for the child/young person to stay overnight away from the placement under the following circumstances
+
+The carer should obtain in advance the responsible authority's approval for the child/young person to stay overnight away from the placement in the following circumstances","Social Worker
+Foster Carer 
+Parent
+Date
+Notes (see guidance)",Placement Plan & Delegated Authority,,,,,,,,
+,Item 529,Comments on SW consultation on overnight stays,,,,,,,,,,,"Babysitting arrangements for child, including sons and daughters (Notes (see guidance))
+
+Overnight with friends (Notes (see guidance))",,Placement Plan & Delegated Authority,,,,,,,,
+,Item 530,Babysitting arrangements,,,,,,,,,,,"Babysitting arrangements for child, including sons and daughters ","Social Worker
+Foster Carer 
+Parent
+Date
+Notes (see guidance)",Placement Plan & Delegated Authority,,,,,,,,
+,Item 531,Overnights with friends,,,,,,,,,,,Overnights with friends (sleepovers),,Placement Plan & Delegated Authority,,,,,,,,
+,Item 532,"Holidays within England, Scotland, Wales, and Northern Ireland",,,,,,,,,,,"Holidays within England, Scotland, Wales, and Northern Ireland","Social Worker
+Foster Carer 
+Parent
+Date
+Notes (see guidance)",Placement Plan & Delegated Authority,,,,,,,,
+,Item 533,"Holidays outside England, Scotland, Wales, and Northern Ireland",,,,,,,,,,,"Holidays outside England, Scotland, Wales, and Northern Ireland","Head Of Service only
+Date of this placement Plan
+Date
+Type of Placement/accommodation",Placement Plan & Delegated Authority,,,,,,,,
+,Item 545,Carer's relationship to child/YP,,,,,,,,,,,Carer's relationship to child/young person,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 546,Parents have agreed to inform the Authority of any relevant change in circumstances,,,,,,,,,,,Parents have agreed to inform the Authority of any relevant change in circumstances,yes/no,Placement Plan & Delegated Authority,,,,,,,,
+,Item 548,"If the child is looked after but the responsible LA does not have parental authority: what are the responsibilities of the authority, the child's parents, and person with PR?",,,,,,,,,,,What are the respective responsibilities of the responsible authority and the child's parents or the person with parental responsibility for the child?,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 549,If the child is looked after but the responsible LA does not have parental authority: what aspects of day to day care have been delegate by the child/child's parents?,,,,,,,,,,, What aspects of day to day care have been delegate by the child/child's parents?,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 550,If the child is looked after but the responsible LA does not have parental authority: What is the expected duration of the arrangements? And what steps are to be taken to being the arrangements to an end?,,,,,,,,,,, What is the expected duration of the arrangements? And what steps are to be taken to being the arrangements to an end?,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 563,Carer confidentiality requirements,,,,,,,,,,,Confidentiality requirements (if carer's contact numbers need to be confidential),,Placement Plan & Delegated Authority ,,,,,,,,
+,Item 592,Views/requests about self-care plan,,,,,,,,,,,Views and requests of the young person about their self-care and skills programme,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 599,Child's view of independence,,,,,,,,,,,Young person view of identity,,My Pathway Plan,,,,,,,,
+,Item 601,Other's view of independence,,,,,,,,,,,Views of other important people,,My Pathway Plan,,,,,,,,
+,Item 602,Independence score,,,,,,,,,,,Being Independent Support Needs,1 to 10,My Pathway Plan,,,,,,,,
+,Item 611,"If another type of care plan, detail it",,,,,,,,,,,"If other, please state",,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 665,Other's views on plan?,,,,,,,,,,,"What do other important people in my life (e.g. teacher, health professional, therapist, youth worker etc) say about how things are going?",,All About Me Review and Placement Plan,,,,,,,,
+,Item 766,Period/type of placement requested,,,,,,,,,,,Type of placement/accommodation,"Short term
+Long Term",Placement Plan & Delegated Authority,,,,,,,,
+,Item 770,What type of placement change is required?,,,,,,,,,,,"Is this a request to make a young person Looked After, or to change a placement of a young person that is already Looked After, or to step down for a young person this is no longer Looked After?","Request to make child/young person Looked After
+Change of placement for young person that is already Looked After
+Step down to CIN for young person that is no longer Looked After
+Accommodation or Placement Change no longer required","CLA Decision, Placement Change or Step Down ",,,,,,,,
+,Item 807,Placement Matching Criteria: Ethnicity,,,,,,,,,,,Ethnicity,"Yes/No
+If it's not a match, how will a career promote the child's ethnic needs?",Placement Record,,,,,,,,
+,Item 808,Carer's Ethnicity,,,,,,,,,,,"Ethnicity of Carer 1
+Ethnicity of Carer 2",,Placement Plan & Delegated Authority,,,,,,,,
+,Item 812,Placement Matching Criteria: carer has car,,,,,,,,,,,Does the carer own a car and drive?,"Yes/NO
+Carer's availability",Placement Record,,,,,,,,
+,Item 815,Placement Matching Criteria: availability to child,,,,,,,,,,,What is the general availability of the carer to the child?,,Placement Record,,,,,,,,
+,Item 824,Risks to the placement,,,,,,,,,,,Risks to the placement,"Risk Details
+Risk Indicators
+Reducing the risk",Placement Plan & Delegated Authority,,,,,,,,
+,Item 829,Placement Matching Criteria: Enhancement fee,,,,,,,,,,,"If the Enhancement Fee is requested, what is the justification for this?",,Placement Record,,,,,,,,
+,Item 855,Details of expectations (outcomes) for child/young person from CLA request,,,,,,,,,,,Outcome,Children are safe/ Children achieve their potential/ Children are healthy/ All children with additional needs have the same opportunities as their peers/ Car leavers have secure stable and successful adult lives,Placement Referral Request,,,,,,,,
+,Item 856,How will expected placement outcomes be achieved within CLA request,,,,,,,,,,,How will these be achieved,,Placement Referral Request,,,,,,,,
+,Item 858,Views on placement (Parents),,,,,,,,,,,Parent (s),,Placement Referral Request,,,,,,,,
+,Item 859,Views on placement (Current Carer),,,,,,,,,,,Current Carer,,Placement Referral Request,,,,,,,,
+,Item 860,Views on placement (Significant others),,,,,,,,,,,"Significant Others
+",,Placement Referral Request,,,,,,,,
+,Item 879,Child's allowance in placement,,,,,,,,,,,Weekly Allowance,,Placement Record,,,,,,,,
+,Item 892,Date foster search begins,Date placed for fostering in FFA or concurrent planning placement,,,,,,,,,,Date of Internal Foster Carer Search,,Placement Record,,,,,,,,
+,Item 894,"If not using internal fostering, why?",,,,,,,,,,,If the search was not successful please explain why a match was not made. Explain the next steps to find a placement; Further comments,,Placement Record,,,,,,,,
+,Item 896,Details of placement search: Name of placement/Agency contacted,,,,,,,,,,,Name of Person/Agency contacted,,Placement Record,,,,,,,,
+,Item 897,Details of placement search: Date of contact,,,,,,,,,,,Date of Contact,,Placement Record,,,,,,,,
+,Item 898,Details of placement search: Record of contact,,,,,,,,,,,Record of Contact,,Placement Record,,,,,,,,
+,Item 899,Details of placement search: Outcome of contact,,,,,,,,,,,Outcome of Contact,,Placement Record,,,,,,,,
+,Item 947,Placement statement of purpose,,,,,,,,,,,Statement of purpose,,Placement Record,,,,,,,,
+,Item 948,Placement health and safety report,,,,,,,,,,,Health and safety report received,,Placement Record,,,,,,,,
+,Item 954,Foster Frameworki ID,,,,,,,,,,,Frameworki ID,,Placement Record,,,,,,,,
+,Item 960,Individual child agreement for Independent Fostering,,,,,,,,,,,Individual Child Agreement completed and faxed to placement (Only applicable if IFA/Residential Unit is being used),,Placement Record,,,,,,,,
+,Item 961,Foster carer DBS check,,,,,,,,,,,DBS check date,,Placement Record,,,,,,,,
+,Item 962,DBS approved by IFA?,,,,,,,,,,,Are DBS check trace have been explored and approved by IFA?,,Placement Record,,,,,,,,
+,Item 963,Date LA Head of Service informed about DBS trace and approved check?,,,,,,,,,,,Date Sutton Head of Service informed about the trace and approved the check?,,Placement Record,,,,,,,,
+,Item 964,Date form F seen?,,,,,,,,,,,Date form F report seen?,,Placement Record,,,,,,,,
+,Item 965,Date of DBS for house members over 16,,,,,,,,,,,Date DBS check for members of the household 16+,,Placement Record,,,,,,,,
+,Item 966,Approval of DBS check,,,,,,,,,,,Approval and Category of approval,,Placement Record,,,,,,,,
+,Item 967,Are there any other children in the foster placement?,,,,,,,,,,,Any children in placement?,,Placement Record,,,,,,,,
+,Item 968,Are there any issues with the standard of care in the placement?,,,,,,,,,,,Any Standard of care issues?,,Placement Record,,,,,,,,
+,Item 969,Foster placement outcome,,,,,,,,,,,Outcome,,Placement Record,,,,,,,,
+,Item 1001,Details of positive behaviours and activities in the child/young persons life.,,,,,,,,,,,Details of positive behaviours and activities in the child/young persons life.,,"Placement Referral Request
+Placement Plan & Delegated Authority",,,,,,,,
+,Item 1005,Child behaviours (negative) ,,,,,,,,,,,Description,"Use of Drugs/ Use of Alcohol/ Incidents of Violence/ Verbal aggression/ Self Harm/ Absconding/ Truanting/ Inappropriate sexualised behaviours/ High risk of sexual exploitation/ Fire Setting/ Phobias/ Other significant behaviour/ absconding from placement, carers",Placement Referral Request,,,,,,,,
+,Item 1007,When did the child's negative behaviours start,,,,,,,,,,,When started,,Placement Referral Request,,,,,,,,
+,Item 1008,How and where did the child's behaviours start?,,,,,,,,,,,Details - How and where etc,,Placement Referral Request,,,,,,,,
+,Item 1010,Have the child's offences been added to the frameworking offences section?,,,,,,,,,,,Confirm that all offences have been added to frameworking offences section,Yes/No,Placement Referral Request,,,,,,,,
+,Item 1011,Are there any outstanding offences?,,,,,,,,,,,Are there any outstanding offences?,Yes/No,Placement Referral Request,,,,,,,,
+,Item 1012,Does the child / young person display behaviour patterns including incidents to self or others that have been of concern to current or previous carers?,,,,,,,,,,,Does the child / young person display behaviour patterns including incidents to self or others that have been of concern to current or previous carers?,Yes/No,Placement Referral Request,,,,,,,,
+,Item 1013,Details of Child's negative behaviours to self or others.,,,,,,,,,,,"If so, please explain why. Please provide dates of any incidents where possible",,Placement Referral Request,,,,,,,,
+,Item 1015,Is there support for the child's negative behaviours,,,,,,,,,,,Has/Is the child or young person receiving support to deal with these issues,,Placement Referral Request,,,,,,,,
+,Item 1053,Check required by (within 5 days of request),,,,,,,,,,,Check required by within 5 days of request),,LAC Midpoint Review,,,,,,,,
+,Item 1056,Date of this care plan,,,,,,,,,,,"Date of this plan
+Care Plan",,"SW Assessment Report and Care Plan for LAC Review
+All About Me Review and Care Plan",,,,,,,,
+,Item 1059,Was the review in the child's preferred location?,,,,,,,,,,,"Where did your review take place, and was it where you wanted it?",,Summary of All About Me Review,,,,,,,,
+,Item 1060,Who did the child want at the review?,,,,,,,,,,,Who did I say I would like to be involved?,,All About Me Review and Care Plan,,,,,,,,
+,Item 1104,Decisions from the last care panel,,,,,,,,,,,Plans made at my last review,"Decision
+Who will meet this?
+Has this happened?
+More details if required",All About Me Review and Care Plan,,,,,,,,
+,Item 1136,Date of last review meeting,,,,,,,,,,,Date of last review meeting (if applicable),,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1141,Decisions from the last LAC review,,,,,,,,,,,Decisions,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1142,People/agency responsible for decisions since last LAC review,,,,,,,,,,,People / Agency responsible,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1143,Target date for decisions since last LAC review,,,,,,,,,,,Target date,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1144,Update on decisions since last LAC review,,,,,,,,,,,"Update on Decision
+
+Please report on  progress on decisions made at the last review (please review all decisions including those listed for professionals from other agencies so please liaise with them to clarify progress made to assist you in completing this document)","Decision
+Completed
+If YES - Outcome
+If NO - Details","SW Assessment Report and Care Plan for LAC Review
+
+LAC Midpoint Review",,,,,,,,
+,Item 1187,Has the independent officer seen the personal education plan?,,,,,,,,,,,Has the PEP been shared with the IRO?,"Yes/No
+If no , why not?",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1188,Have actions suggested by the personal education plan been progressed?,,,,,,,,,,,Have all the recommended actions from the PEP been progressed?,"Yes/No
+If no, why not",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1196,Dates child/YP seen since becoming looked after or since last looked after review,,,,,,,,,,,Dates child/young person seen since becoming Looked After or since last Looked After Review,"Date
+Child/Young person seen within timescales
+Was the child seen alone
+Reasons if not seen alone/on time",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1197,Dates/details of other significant visits/meetings with family/professionals,,,,,,,,,,,Dates and details of other significant visits and meeting with family and / or professionals,"Type of visit/meeting
+Family member
+Professionals
+Date of visit/meeting",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1198,Professional's involvement in review,,,,,,,,,,,Professionals' involvement,"Name
+Designation
+Agency
+Telephone number(s)
+Type of contribution
+invited to review",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1199,"If any important people have not contributed to the review, why?",,,,,,,,,,,"If any of the above have not contributed to the assessment, please state why.",,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1200,What is the permanent care plan for the child?,,,,,,,,,,,What is the permanent car plan for the child?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1201,What realistic options are there for permanence?,,,,,,,,,,,What are other realistic options for permanence?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1202,Date of referral to adoption and permanency service?,,,,,,,,,,,Date of referral to the Adoption and permanency Service?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1204,Date of first permanency planning meeting?,,,,,,,,,,,Date of first Permanency Planning Meeting?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1205,Date of final permanency planning meeting?,,,,,,,,,,,Date of Final Permanency Planning meeting?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1208,How are the most recent actions form a permanency planning meeting being progressed?,,,,,,,,,,,How are these actions being progressed?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1210,Date of ADM Decision,,,,,,,,,,,Dare of ADM Decision,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1211,Date of Matching Decision,Date of matching child and prospective adopters/ date decision to place child with prospective parents,Date of matching child and prospective adopters/ date decision to place child with prospective parents,,,,,,,,,Date of Matching Decision,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1212,Date of Family Finding Meeting,,,,,,,,,,,Date of Family Finding Meeting,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1213,How are health needs met within the placement?,,,,,,,,,,,Child/young person's developmental needs and how these are met within the placement,"Health
+Date of most recent Health Assessment",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1214,Has the health plan been completed and uploaded to frameworki?,,,,,,,,,,,Has the health plan been completed and uploaded to frameworki?,"Yes/No
+If no, why not",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1215,Have all the recommended health actions been progressed?,,,,,,,,,,,Have all the recommended actions been progressed?,"Yes/No
+If no why not",SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1220,Provision/equipment required,,,,,,,,,,,Provision/equipment required,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 1221,Additional arrangements/issues that need to be covered in a placement plan,,,,,,,,,,,Additional arrangements/issues that need to be covered in the placement plan,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 1223,Any circumstances or information not specifically addressed elsewhere in the care plan that will be communicated to the parent (i.e. if the child goes missing),,,,,,,,,,,Any circumstances or information not specifically addressed elsewhere in this document that will be communicated to the parent (i.e. if the child goes missing),,Placement Plan & Delegated Authority,,,,,,,,
+,Item 1225,Circumstances in which it is necessary to obtain in advance the approval of the responsible authority for the child to live even temporarily in a household other than the parent's household,,,,,,,,,,,Circumstances in which it is necessary to obtain in advance the approval of the responsible authority for the child to live even temporarily in a household other than the parent's household,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 1226,What arrangements have been made for a request to change the criteria,,,,,,,,,,,What arrangements have been made for a request to change the criteria,,Placement Plan & Delegated Authority,,,,,,,,
+,Item 1228,Any issues to placement stability?,,,,,,,,,,,Any issues to placement stability?,,LAC Midpoint Review,,,,,,,,
+,Item 1233,"Any other issues for consultation (e.g. children/young people's successes, their views about their next review, venue/format/invitees)?",,,,,,,,,,,"Any other issues for consultation (e.g. children/young people's successes, their views about their next review, venue/format/invitees)?",,LAC Midpoint Review,,,,,,,,
+,Iterm 1247,What needs to change about the child's situation? What outcomes are sought?,,,,,,,,,,,What needs to change? What outcomes are sought?,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Iterm 1300,Addendums to review/plan,,,,,,,,,,,Addendum section. This must be updated when a Finished Episode has been reopened and changes have been made. Please include details of any changes made and the reason for these changes.,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Iterm 1301,Team manager's name,,,,,,,,,,,Team manager's name,,SW Assessment Report and Care Plan for LAC Review,,,,,,,,
+,Item 1318,Children to be discussed at meeting,,,,,,,,,,,Children to be discussed at meeting,"Name
+DOB/EDD
+Gender
+Ethnicity
+Religion","CLA Review Invitation Confirmation
+",,,,,,,,
+,Item 1319,Chair of meeting,,,,,,,,,,,Name,,CLA Review Invitation Confirmation,,,,,,,,
+,Item 1320,Social Worker,,,,,,,,,,,Name,,CLA Review Invitation Confirmation,,,,,,,,
+,Item 1321,Team Manager,,,,,,,,,,,Name,,CLA Review Invitation Confirmation,,,,,,,,
+,Item 1322,Other Attendees,,,,,,,,,,,Other attendees to be invited (professionals),"Name
+Role
+Agency
+Organisation
+Email
+Telephone",CLA Review Invitation Confirmation,,,,,,,,
+,Item 1323,Young person and family members invited to CLA review,,,,,,,,,,,Young Person and Family members to be invited to CLA Review,"Name 
+Email Address
+Relationship to children",CLA Review Invitation Confirmation,,,,,,,,
+,Item 1324,Professionals/Family members to be notified of CLA Review,,,,,,,,,,,Professionals/Family members to be notified of CLA Review,"Name 
+Email Address
+Relationship to children",CLA Review Invitation Confirmation,,,,,,,,
+,Item 1326,Name,,,,,,,,,,,Name,,Turning 18 End CLA status,,,,,,,,
+,Item 1327,Date of Birth,,,,,,,,,,,Date of Birth,,Turning 18 End CLA status,,,,,,,,
+,Item 1328,Gender,,,,,,,,,,,Gender,,Turning 18 End CLA status,,,,,,,,
+,Item 1329,Ethnicity,,,,,,,,,,,Ethnicity,,Turning 18 End CLA status,,,,,,,,
+,Item 1330,CLA Status and history (code),,,,,,,,,,,Code,,Turning 18 End CLA status,,,,,,,,
+,Item 1331,CLA Status and history (LAC description),,,,,,,,,,,LAC description,,Turning 18 End CLA status,,,,,,,,
+,Item 1332,CLA Status and history (Start Date),,Start date of period of care,,,,,,,,,Start Date,,Turning 18 End CLA status,,,,,,,,
+,Item 1333,CLA Status and history (End date),Date ceased to be looked after/in care,Date ceased to be looked after/in care,,,,,,,,,End Date,,Turning 18 End CLA status,,,,,,,,
+,Item 1339,Action after turning 18,,,,,,,,,,,Next action,completed/turning 21,Turning 18 End CLA status,,,,,,,,
+,Item 1340,Child's views on becoming an adult,,,,,,,,,,,Becoming an Adult,,All About Me Review and Care Plan,,,,,,,,
+,Item 1443,Was this visit 'in person' or 'virtual',,,,,,,,,,,Was this visit 'in person' or 'virtual',"In Person 
+Virtual",Visit Recording Template,,,,,,,,
+,Item 1447,"If not seen, reason for Child Not Seen",,,,,,,,,,,"If not seen, reason for Child Not Seen",,Visit Recording Template,,,,,,,,
+,Item 1449,Update of actions from previous visit,,,,,,,,,,,Update of actions from previous visit,,Visit Recording Template,,,,,,,,
+,Item 1450,Purpose of the visit,,,,,,,,,,,Purpose of the visit,,Visit Recording Template,,,,,,,,
+,Item 1454,Children/Young people present (Reason not seen alone),,,,,,,,,,,Children/Young people present (Reason not seen alone),,Visit Recording Template,,,,,,,,
+,Item 1455,Children/Young people not present (Name),,,,,,,,,,,Children/Young people not present (Name),,Visit Recording Template,,,,,,,,
+,Item 1456,Children/Young people not present (Details and Plans),,,,,,,,,,,Children/Young people not present (Details and Plans),,Visit Recording Template,,,,,,,,
+,Item 1459,Discussion with Parent/carers including views,,,,,,,,,,,Discussion with Parent/carers including views,,Visit Recording Template,,,,,,,,
+,Item 1460,Child/Young person's views and wishes,,,,,,,,,,,Child/Young person's views and wishes,,Visit Recording Template,,,,,,,,
+,Item 1461,Outline of any direct work undertaken,,,,,,,,,,,Outline of any direct work undertaken,,Visit Recording Template,,,,,,,,
+,Item 1474,Placement Code,,Type of placement code,,,,,,,,,Placement code,903 dropdown,Placement Record,,,,,,,,
+,Item 1475,Type of provision,,Type of CLA provision,,,,,,,,,Type of provision,903 dropdown,Placement Record,,,,,,,,
+,Item 1476,Legal Status Details,,Child's legal status,,,,,,,,,Legal Status Details,903 dropdown,Placement Record,,,,,,,,
+,Item 1477,Have looked after episodes been updated,,"Various episode data items including commenced, ended, reason",,,,,,,,,Confirm that Looked After Episodes have been updated on child Record,,Placement Record,,,,,,,,
+,Item 1478,Has placement address been updated?,,Placement location,,,,,,,,,Confirm that placement address has been update on child record,,Placement Record,,,,,,,,
+,Item 1783,Passport Application,,,,,,,,,,,Passport Application,"Head of service only
+Date",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1784,Sports/social clubs,,,,,,,,,,,Sports/social clubs,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1785,More hazardous activities ,,,,,,,,,,,"More hazardous activities, e.g. horse riding, skiing, rock climbing ","Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1786,Haircuts/Colouring,,,,,,,,,,,Haircuts/colouring,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1787,Body Piercing,,,,,,,,,,,Body Piercing,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1788,Tattoos,,,,,,,,,,,Tattoos,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1789,Mobile Phone,,,,,,,,,,,Mobile Phone,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1790,Part-time employment,,,,,,,,,,,Part-time employment,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1791,Social media,,,,,,,,,,,"Accessing social networking sites, e.g. Facebook, Twitter, MSN","Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1792,Photos or media activity,,,,,,,,,,,Photos or media activity,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1793,"New changes in faith, church or religious observance",,,,,,,,,,,"New changes in faith, church or religious observance","Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1794,Attendance at place of worship,,,,,,,,,,,Attendance at place of worship,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1795,Any other diversity matters,,,,,,,,,,,Any other diversity matters,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1796,Life story work,,,,,,,,,,,Life story work,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1797,Name changes ,,,,,,,,,,,"Name changes in nicknames, order of first names, or preferred names","Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1798,Agreements for contact: transport,,,,,,,,,,,Transport,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1799,Agreements for contact: arranging,,,,,,,,,,,Arranging,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1800,Agreements for contact: facilitation,,,,,,,,,,,Facilitation,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1801,Agreements for contact: formal supervision,,,,,,,,,,,Formal contact,"Social Worker
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1803,Immunisations,,,,,,,,,,,Routine Immunisations,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1816,Dental - routine,,,,,,,,,,,Dental - routine including anaesthetic,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1817,"Optician - appointments, tests, glasses",,,,,,,,,,,"Optician - appointments, tests, glasses","Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1818,Consent for examination/treatment by school Doctor or Nurse,,,,,,,,,,,Consent to examination/treatment by school Doctor or school Nurse,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1819,Over the counter and prescribed medications,,,,,,,,,,,Administration of prescribed and over the counter medications,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1820,Consent for other health services,,,,,,,,,,,"Referral/consent for child or young person to access or receive other health services, e.g. CAMHS","Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1821,Signed consent for school day trips,,,,,,,,,,,Signed consent for school day trips,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1822,Signed consent for school trips over 4 days,,,,,,,,,,,Signed consent for school trips over 4 days,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1823,School trips abroad,,,,,,,,,,,School trips abroad,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1824,School photos,,,,,,,,,,,School photos,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1825,Referral/consent for child or young person to access another education service (please specify the service,,,,,,,,,,,Referral/consent for child or young person to access another education service (please specify the service,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,
+,Item 1826,Personal health and social education including sex education,,,,,,,,,,,Personal health and social education including sex education,"Social Worker
+Parent
+Foster Carer
+Date
+Notes",Placement Plan & Delegated Authority,,,,,,,,

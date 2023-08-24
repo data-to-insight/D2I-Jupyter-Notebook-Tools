@@ -1,0 +1,102 @@
+data category,item number,data item,annex a  information captured,903 information captured,croydon text,croydon options,croydon forms,croydon reason for collecton,essex text,essex options,essex forms,essex reason for collection,sutton text,sutton options,sutton forms,sutton reason for collection,camden text,camden options,camden forms,camden reason for collection,were users asked specifically about this item (y/n),did users find it useful?,why was it found useful/not useful?
+,Item 15,Legal status start date,Legal status start date,Legal status start date,Current legal status,"started on
+legal status
+Expiry date
+Actual end date
+court",CLA Care Plan,,,,,,Legal STatus,CLA Start Date,Placement Record,,Any information regarding legast status/immigration status,,Placement Plan,,,,
+,Item 33,Date child became looked after,,Start date of period of care,Date Decision to Accommodate agreed,,CLA Request for Child to be Looked After,,,,,,Start Date,,Turning 18 End CLA status,,Date child became looked after,,"CLA Updated assessment 
+CLA Chair's report - updated care plan",,,,
+,Item 147,SW/Professional - Name, Allocated Worker,,"Professional
+SW Name",,"Pathway Plan (PLAN)
+Care Panel
+CLA Request for Child to be Looked After",,,,,,"Details of SW
+Name of Allocated Social Worker",,"My Pathway Plan
+CLA/LCT Case Supervision Record
+Placement Record
+Transfer In Child Looked After ",,People involved in the assessment Name,,"Pathway Needs Assessment
+Request for placement and matching",,,,
+,Item 153,Supervising Social Worker - Name,,,Supervising Social Worker - Name,,"Pathway Plan (PLAN)
+Placement Agreement Form
+CLA Care Plan",,,,,,"Supervisor and Team
+Supervising Social Worker Name",,"CLA/LCT Case Supervision Record
+Placement Plan & Delegated Authority
+Placement Record",,Details of involved professionals Name,N/A (Free text entry),"Placement Plan
+Request for placement and matching",,,,
+,Item 154,Supervising Social Worker - Team/Agency,,,Supervising Social Worker - Team/Agency,,CLA Care Plan,,,,,,Team Name,,Placement Plan & Delegated Authority,,Details of involved professionals Agency,N/A (Free text entry),"Placement Plan
+Request for placement and matching",,,,
+,Item 155,Supervising Social Worker - Telephone,,,Supervising Social Worker - Telephone,,CLA Care Plan,,,,,,Telephone Number,,Placement Plan & Delegated Authority ,,Details of involved professionals Contact details,N/A (Free text entry),"Placement Plan
+Request for placement and matching",,,,
+,Item 168,Independent Visitor/officer - Team/Agency,,,Independent Visitor - Team/Agency,,CLA Care Plan,,,,,,Team Name,,Placement Plan & Delegated Authority,,Details of involved professionals Agency,N/A (Free text entry),"Placement Plan
+Request for placement and matching",,,,
+,Item 393,Last dentist visit?,Date of last dental check,Date of last dental check,When did you last see one?,,Pathway Plan (PLAN),,,,,,"Dental checks
+Date of most recent Dentist Appointment
+Dental Check",,"My Pathway Plan
+SW Assessment Report and Care Plan for LAC Report
+All About Me Review and Care Plan",,Date of last dental appointment,,Chair's report - updated care plan,,,,
+,Item 412,Details of placement/care relevant medical history,,,Detail,,Placement Agreement Form,,,,,,"Summary of health plan, or, if not available, who is arranging the assessment/plan and by when? If there is no plan, please give details of what medical history is known",,Placement Plan & Delegated Authority,,"Summary of health plan or, if not available, who is arranging the assessment/plan and by when? If there is no plan, please give details of what medical history is known",N/A (Free text entry),Placement Plan,,,,
+,Item 427,Child's routine/scheduled medical appointments,,,What routine or outstanding medical appointments does this child/young person have scheduled and when?,,"Placement Request
+Placement Agreement Form",,,,,,"Details of outstanding medical or dental appointments
+",,Placement Plan & Delegated Authority,,Details of outstanding medical or dental appointments,N/A (Free text entry),Placement Plan,,,,
+,Item 429,Special medical equipment or clinical interventions?,,,Does the child/young person use any special equipment or specific medical or clinical interventions?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,"Special Equipment required, who will provide and how will the carer ben trained to use?",,Placement Plan & Delegated Authority,,"Is additional resource/support required to meet the child's need in this placement?
+
+Special equipment required, who will provide and how the carer will be trained to use",N/A (Free text entry),"Placement Plan
+",,,,
+,Item 435,Does the child use any specific medication or medical interventions?,,,Is the Child / young person using any medication or medical intervention e.g. tube fed etc?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,"Medications
+Current Medication",,"My Pathway plan
+Placement Plan & Delegated Authority
+Placement Referral Request",,"Current medication Name of medication
+
+Current Medication Dosage
+
+Current Medication Frequency
+
+Current Medication How Administered",N/A (Free text entry),Placement Plan,,,,
+,Item 459,Strengths and Difficulties Questionnaire,,SDQ score,"Note from Croydon -
+There is a separate section for the SDQs - which includes the SDQs for child, parent/carer, & teacher ",,,,,,,,"Has a Strengths and Difficulties Questionnaire (SDQ) been completed in the last year?
+Strengths and Difficulties Questionnaire (date)","Yes/No/Not Applicable
+SDQ Score
+Last Year's SDQ Score
+If no, why not?",SW Assessment Report for Care Plan and LAC Review,,Is there an up to date Strengths and Difficulties Questionnaire?,"Yes, Plan needs completing, Plan needs updating",CLA review IRO monitoring info ,,,,
+,Item 653,Likely placement duration?,,,What is the likely duration of the placement?,,Pathway Plan (PLAN),,,,,,Expected duration of the placement,,Placement Plan & Delegated Authority,,"Expected duration of the placement
+
+Purpose and expected duration of placement",N/A (Free text entry),"Placement Plan
+CLA Updated Assessment
+Chair's report - updated care plan",,,,
+,Item 826,Can the carer/placement meet medical needs?,,,Can the foster carer/provider consent to medical treatment if the child/young person needs it?,Placement Agreement Form: Yes/No,Placement Agreement Form,,,,,,"Matching factors, any identified gaps and how these are going to be addressed i.e. additional training, resource, or support required",,Placement Plan & Delegated Authority,,Are there any of the child's assessed needs that cannot be met in this placement,N/A (Free text entry),Placement Plan,,,,
+,Item 827,"If the carer/placement can't meet medical needs, who can?",,,"If not, who can?",,Placement Agreement Form,,,,,,"Matching factors, any identified gaps and how these are going to be addressed i.e. additional training, resource, or support required",,Placement Plan & Delegated Authority,,Is additional resource/support required to meet the child's need in this placement?,N/A (Free text entry),Placement Plan,,,,
+,Item 862,"In the placement, can the child be transported to and from educational and leisure activities?",,,Are there arrangements in place to facilitate transport to and from school and leisure activities?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,How will the child/young person get to and from school/establishment,,Placement Plan & Delegated Authority,,How will the child/young person get to and from school?,N/A (Free text entry),Placement Plan,,,,
+,Item 933,Has a placement visit taken place?,,,Has a visit taken place?,Placement Request: 1.Yes/0.No,Placement Request,,,,,,Arrangements made for the child/young person to visit prior to the placement commencing,,Placement Plan & Delegated Authority,,Arrangements made for the child/young person to visit prior to the placement commencing,N/A (Free text entry),Placement Plan,,,,
+,Item 945,Placement Ofsted grading,,,Ofsted Grading,,Placement Request,,,,,,Ofsted judgement,,Placement Record,,Latest Ofsted overall effectiveness judgement for the provider,"Inadequate, Requires Improvement, Good, Outstanding, Placement not required, Ofsted registered - new provider/not yet inspected",Request for placement and matching,,,,
+,Item 1019,Important diet and nutrition information,,,"Does the child/young person have specific dietary needs or restrictions (e.g. gastro-fed, vegetarian)",Placement Request: 1.Yes/0.No,Placement Request,,,,,,"Diet and nutrition information
+
+Specific dietary needs or restrictions for health reasons or their own choice",,"Placement Referral Request
+
+Placement Plan & Delegated Authority",,"Specific dietary needs or restrictions for health, religious or other reasons",N/A (Free text entry),Placement Plan,,,,
+,Item 1037,Last CLA review date,Date of last statutory review,date of latest statutory review,Last CLA Review Date,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,"Date of last review meeting (if applicable)
+
+Date of my last review",,"SW Assessment Report and Care Plan for LAC Review
+LAC Midpoint Review
+All About Me Review And Care Plan",,"Date of review
+Date of review meeting
+Date of CLA review
+Statutory CLA Review Date of Meeting",,"CLA Updated assessment
+CLA Review IRO Monitoring info 
+Chair's report - updated care plan",,,,
+,Item 1054,Actual review date,Date of review,Date of review,Date of CLA Review,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,"Date of this review meeting
+Date of this review",,"SW Assessment Report and Care Plan for LAC Review
+All About Me Review and Care Plan",,"Date of review
+Date of review meeting
+Date of CLA review
+Statutory CLA Review Date of Meeting",,"CLA Updated assessment
+CLA Review IRO Monitoring info 
+Chair's report - updated care plan",,,,
+,Item 1057,CLA review location,,,Location,,"CLA Review - Record of Decisions
+CLA Pathway Review Outcomes",,,,,,"Where did your review take place, and was it where you wanted it?
+
+Please specify the preferred venue for the meeting (usually the child's placement)",,"Summary of All About Me Review
+LAC Review Referral",,Looked After review venue,"Placement, Office, School, Other",CLA review IRO monitoring info ,,,,
+,Item 1084,How does the young person feel - CLA/Review?,,,Young person’s wishes and feelings :,,CLA Pathway Review Outcomes,,,,,,How was I supported to prepare for my review and what I said about how I wanted it to be?,,All About Me Review and Care Plan,,Child / young person's views of the review and how these were obtained,N/A (Free text entry),CLA Review record of meeting,,,,
+,Iterm 1302,Actions to take on the CLA plan?,,,Action,,CLA Progress Report (Worker),,,,,,Actions to be taken from visit,,CLA/LCT Case Supervision Record,,Next action,"Start subsequent child looked after review, Discharge from Care, End workflow (Change of placement/Care Leaver), Initial CIN Review Meeting, Initial Pathway Plan Review, IRO Alert, Refer to Leaving Care, Repeat Assessment, SDQ Assessment (CSSW) ",CLA Updated assessment ,,,,
+,Iterm 1303,Who will take the CLA plan action?,,,Who?,,CLA Progress Report (Worker),,,,,,By Whom?,,CLA/LCT Case Supervision Record,,Assigned to,,CLA Updated assessment ,,,,
