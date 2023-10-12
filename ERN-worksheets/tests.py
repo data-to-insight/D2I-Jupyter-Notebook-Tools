@@ -20,6 +20,10 @@ def addition_xy(x, y):
         if type(y) == str:
             raise TypeError('y was a string, expected a float or int')
 
+def df_slicer(df):
+    over_5 = df[df['Age'] >= 5]
+    return over_5
+
 def test_sum_xy():
     assert sum_xy(1, 1) == 2 
 
@@ -28,3 +32,17 @@ def test_sumprod():
 
     assert sum == 2
     assert prod == 1
+
+def test_df_slicer():
+    test_df = pd.DataFrame([{'ChildId':'child1','Age':6},
+                            {'ChildId':'child3','Age':10},
+                            {'ChildId':'child2','Age':4},
+                            {'ChildId':'child4','Age':1},
+                        ])
+    sliced_df = df_slicer(test_df)
+
+    expected_df = pd.DataFrame([
+        {'ChildId':'child1','Age':6},
+        {'ChildId':'child3','Age':10}
+    ])
+    pd.testing.assert_frame_equal(sliced_df,expected_df,check_names=False)
