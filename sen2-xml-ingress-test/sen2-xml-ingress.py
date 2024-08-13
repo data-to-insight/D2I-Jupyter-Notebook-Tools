@@ -109,6 +109,7 @@ class XMLtoCSV():
         self.child_id = 0
         header = root.find('Header')
         self.Header = self.create_header(header)
+        self.name = None
 
         children  = root.find('Persons')
 
@@ -146,6 +147,9 @@ class XMLtoCSV():
 
 
     def create_person(self, child):
+        forename = child.find('Forename').text
+        surname = child.find('Surname').text
+        self.name = f'{forename} {surname}'
         self.child_id += 1
         person_dict = {}
         elements = self.persons.columns
@@ -199,6 +203,7 @@ class XMLtoCSV():
 
             assessment_dict = get_values(elements, assessment_dict, assessment)
             
+            assessment_dict['name'] = self.name
             assessment_dict['child_id'] = self.child_id
             assessment_dict['requests_id'] = self.requests_id
             assessment_dict['assessment_id'] = self.assessment_id
@@ -206,7 +211,7 @@ class XMLtoCSV():
             assessment_list.append(assessment_dict)
 
             # named_plans
-        self.create_named_plan(assessment)
+            self.create_named_plan(assessment)
 
         
         assessment_df = pd.DataFrame(assessment_list)
@@ -246,7 +251,7 @@ class XMLtoCSV():
                 named_plan_dict = get_values(named_plan_elements, named_plan_dict, named_plan_locs)
                 
                 named_plan_dict = get_values(plan_detail_elements, named_plan_dict, plan_detail)
-                
+                named_plan_dict['name'] = self.name
                 named_plan_dict['child_id'] = self.child_id
                 named_plan_dict['requests_id'] = self.requests_id
                 named_plan_dict['assessment_id'] = self.assessment_id
@@ -260,18 +265,18 @@ class XMLtoCSV():
 
     def create_active_plans(self, request):
         active_plans_list = []
-        active_plans_dict = {}
+        
         active_plan_elements = [
             'TransferLA',
             'RES',
             'WPB',
-            'PlacementDetail',
             'ReviewMeeting',
             'ReviewOutcome',
             'LastReview'
         ]
         placement_detail_elements = [
             'URN',
+            'SENSetting',
             'SENSettingOther',
             'PlacementRank',
             'EntryDate',
@@ -287,12 +292,14 @@ class XMLtoCSV():
         active_plan_locs = request.find('ActivePlans')
         if active_plan_locs:
             placement_detail_locs = active_plan_locs.findall('PlacementDetail')
-            sen_need_locs = request.findall('SENneed')
+            sen_need_locs = active_plan_locs.find('SENneed')
             
-            for plan_detail in placement_detail_locs:   
+            for placement_detail in placement_detail_locs:  
+                active_plans_dict = {} 
                 active_plans_dict = get_values(active_plan_elements, active_plans_dict, active_plan_locs)
-                active_plans_dict = get_values(placement_detail_elements, active_plans_dict, plan_detail)
+                active_plans_dict = get_values(placement_detail_elements, active_plans_dict, placement_detail)
                 active_plans_dict = get_values(sen_need_elements, active_plans_dict, sen_need_locs)
+                active_plans_dict['name'] = self.name
                 active_plans_dict['child_id'] = self.child_id
                 active_plans_dict['requests_id'] = self.requests_id
 
