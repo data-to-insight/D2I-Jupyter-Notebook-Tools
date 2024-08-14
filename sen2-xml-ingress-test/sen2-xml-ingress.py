@@ -1,7 +1,9 @@
 import streamlit as st
+import zipfile
 import pandas as pd
 import xml.etree.ElementTree as ET
-from io import StringIO
+from io import StringIO, BytesIO
+
 
 file = st.file_uploader('sen2 xml')
 
@@ -309,13 +311,49 @@ class XMLtoCSV():
             self.active_plans = pd.concat(
                 [self.active_plans, active_plan_df], ignore_index=True
             )
-                
+
+def convert_for_sen2_tool(m1, m2, m3, m4, m5):
+    m1.rename(columns={'child_id': 'Person ID',
+                        'PersonBirthDate': 'Dob (ccyy-mm-dd)',
+                        'Sex':'Gender'},
+                          inplace=True)
+    
+    m2.rename(columns={'requests_id':'Requests Record ID',
+                       'RequestOutcome':'Request Outcome',
+                       'RequestOutcomeDate':'Request Outcome Date',
+                       'ReceivedDate':'Date Request Was Received'},
+              inplace=True)
+    
+    m3.rename(columns={'requests_id':'Requests Record ID',
+                       'AssessmentOutcome':'Assessment Outcome To Issue EHCP',
+                       'AssessmentOutcomeDate':'Assessment Outcome Date'},
+              inplace=True)
+    
+    m4.rename(columns={'requests_id':'Requests Record ID',
+                       'StartDate':'EHC Plan Start Date',
+                       'CeaseDate':'Date EHC Plan Ceased',
+                       'CeaseReason':'Reason EHC Plan Ceased',},
+              inplace=True)
+    
+    
+    # m1 = convert_df(m1)
+    # m2 = convert_df(m2)
+    # m3 = convert_df(m3)
+    # m4 = convert_df(m4)
+    # m5 = convert_df(m5)
+    
+    return m1, m2, m3, m4, m5
+                    
 
 
 def convert_data(root: ET.Element):
     datafiles = XMLtoCSV(root)
 
     return datafiles
+
+def convert_df(df):
+   return df.to_csv(index=False).encode('utf-8')
+
 
 if file:
     root = ET.fromstring(file.read().decode("utf-8"))
@@ -329,3 +367,29 @@ if file:
     st.write(data_files.assessments)
     st.write(data_files.named_plan)
     st.write(data_files.active_plans)
+
+    files = convert_for_sen2_tool(data_files.persons,
+                                  data_files.requests,
+                                  data_files.assessments,
+                                  data_files.named_plan,
+                                  data_files.active_plans)
+    
+    buf = BytesIO()
+    files_list = []
+    module = 0
+    for file in files:
+        module += 1
+        dta = convert_df(file)
+        files_list.append((f'{module}', BytesIO(dta)))
+
+
+    with zipfile.ZipFile(buf, mode="w") as archive:
+        for filename, data in files_list:         
+            archive.writestr(f'{filename}.csv', data)
+    
+    btn = st.download_button(
+            label = "Download Images",
+            data = buf.getvalue(),
+            file_name = "images.zip",
+            #mime = "application/zip"
+        )
