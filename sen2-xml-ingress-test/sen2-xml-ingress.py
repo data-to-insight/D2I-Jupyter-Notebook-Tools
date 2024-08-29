@@ -28,8 +28,8 @@ class XMLtoCSV():
 
     persons = pd.DataFrame(
         columns = [
-            'FamilyName',
-            'Firstname',
+            'Surname',
+            'Forename',
             'PersonBirthDate',
             'Sex',
             'Ethnicity',
@@ -313,6 +313,14 @@ class XMLtoCSV():
             )
 
 def convert_for_sen2_tool(m1, m2, m3, m4, m5):
+
+    m1.replace(['', '<NA>'], pd.NA, inplace=True)
+    m2.replace(['', '<NA>'], pd.NA, inplace=True)
+    m3.replace(['', '<NA>'], pd.NA, inplace=True)
+    m4.replace(['', '<NA>'], pd.NA, inplace=True)
+    m5.replace(['', '<NA>'], pd.NA, inplace=True)
+
+
     m1.rename(columns={'child_id': 'Person ID',
                         'PersonBirthDate': 'Dob (ccyy-mm-dd)',
                         'Sex':'Gender'},
@@ -351,9 +359,24 @@ def convert_data(root: ET.Element):
 
     return datafiles
 
-def convert_df(df):
-   return df.to_csv(index=False).encode('utf-8')
+# def convert_df(df):
+#    return df.to_csv(index=False).encode('utf-8')
 
+def to_excel(files):
+    output = BytesIO()
+    writer = pd.ExcelWriter(output, engine="xlsxwriter")
+    mod_no = 0
+    for df in files:
+        mod_no+= 1
+        filename = f'm{mod_no}'
+        df.to_excel(writer, index=False, sheet_name=filename)
+    workbook = writer.book
+    worksheet = writer.sheets[filename]
+    format1 = workbook.add_format({"num_format": "0.00"})
+    worksheet.set_column("A:A", None, format1)
+    writer.save()
+    processed_data = output.getvalue()
+    return processed_data
 
 if file:
     root = ET.fromstring(file.read().decode("utf-8"))
@@ -361,12 +384,7 @@ if file:
 
     data_files = convert_data(root)
 
-    st.write(data_files.Header)
-    st.write(data_files.persons)
-    st.write(data_files.requests)
-    st.write(data_files.assessments)
-    st.write(data_files.named_plan)
-    st.write(data_files.active_plans)
+
 
     files = convert_for_sen2_tool(data_files.persons,
                                   data_files.requests,
@@ -374,22 +392,36 @@ if file:
                                   data_files.named_plan,
                                   data_files.active_plans)
     
-    buf = BytesIO()
-    files_list = []
-    module = 0
-    for file in files:
-        module += 1
-        dta = convert_df(file)
-        files_list.append((f'{module}', BytesIO(dta)))
+    st.write(files[0])
+    st.write(files[1])
+    st.write(files[2])
+    st.write(files[3])
+    st.write(files[4])
+
+    # buf = BytesIO()
+    # files_list = []
+    # module = 0
+    # for file in files:
+    #     module += 1
+    #     dta = convert_df(file)
+    #     files_list.append((f'{module}', BytesIO(dta)))
 
 
-    with zipfile.ZipFile(buf, mode="w") as archive:
-        for filename, data in files_list:         
-            archive.writestr(f'{filename}.csv', data)
+    # with zipfile.ZipFile(buf, mode="w") as archive:
+    #     for filename, data in files_list:         
+    #         archive.writestr(f'{filename}.csv', data)
     
-    btn = st.download_button(
-            label = "Download Images",
-            data = buf.getvalue(),
-            file_name = "images.zip",
-            #mime = "application/zip"
-        )
+    # btn = st.download_button(
+    #         label = "Download Images",
+    #         data = buf.getvalue(),
+    #         file_name = "images.zip",
+    #         #mime = "application/zip"
+    #     )
+
+    output = to_excel(files)
+
+    # st.write(annexa)
+
+    st.download_button(
+        "Download output excel here", output, file_name="df_test.xlsx"
+    )
